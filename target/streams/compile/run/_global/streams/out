@@ -1,0 +1,132 @@
+[0m[[0m[31merror[0m] [0m[0morg.apache.spark.sql.streaming.StreamingQueryException: Task not serializable[0m
+[0m[[0m[31merror[0m] [0m[0m=== Streaming Query ===[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifier: [id = 4bef38f3-a022-479e-b473-996ccab70b77, runId = 49eafca7-8fb4-4405-8a8a-1bc1b9654db6][0m
+[0m[[0m[31merror[0m] [0m[0mCurrent Committed Offsets: {KafkaV2[Subscribe[SparkTest]]: {"SparkTest":{"0":41}}}[0m
+[0m[[0m[31merror[0m] [0m[0mCurrent Available Offsets: {KafkaV2[Subscribe[SparkTest]]: {"SparkTest":{"0":42}}}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mCurrent State: ACTIVE[0m
+[0m[[0m[31merror[0m] [0m[0mThread State: RUNNABLE[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mLogical Plan:[0m
+[0m[[0m[31merror[0m] [0m[0mProject [cast(key#7 as string) AS key#21, cast(value#8 as string) AS value#22][0m
+[0m[[0m[31merror[0m] [0m[0m+- StreamingDataSourceV2Relation [key#7, value#8, topic#9, partition#10, offset#11L, timestamp#12, timestampType#13], org.apache.spark.sql.kafka010.KafkaSourceProvider$KafkaScan@22044357, KafkaV2[Subscribe[SparkTest]][0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.StreamExecution.org$apache$spark$sql$execution$streaming$StreamExecution$$runStream(StreamExecution.scala:325)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.run(StreamExecution.scala:209)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: org.apache.spark.SparkException: Task not serializable[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.util.ClosureCleaner$.ensureSerializable(ClosureCleaner.scala:416)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.util.ClosureCleaner$.clean(ClosureCleaner.scala:406)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.util.ClosureCleaner$.clean(ClosureCleaner.scala:162)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.SparkContext.clean(SparkContext.scala:2477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.rdd.RDD.$anonfun$foreach$1(RDD.scala:1011)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.rdd.RDD.withScope(RDD.scala:414)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.rdd.RDD.foreach(RDD.scala:1010)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.$anonfun$foreach$1(Dataset.scala:2893)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.$anonfun$withNewRDDExecutionId$1(Dataset.scala:3695)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.withNewRDDExecutionId(Dataset.scala:3693)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.foreach(Dataset.scala:2893)[0m
+[0m[[0m[31merror[0m] [0m[0m	at KafkaTest$.$anonfun$main$1(KafkaTest.scala:24)[0m
+[0m[[0m[31merror[0m] [0m[0m	at KafkaTest$.$anonfun$main$1$adapted(KafkaTest.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.sources.ForeachBatchSink.addBatch(ForeachBatchSink.scala:35)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$17(MicroBatchExecution.scala:600)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$16(MicroBatchExecution.scala:598)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:375)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:69)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runBatch(MicroBatchExecution.scala:598)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$2(MicroBatchExecution.scala:228)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:375)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:69)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$1(MicroBatchExecution.scala:193)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.ProcessingTimeExecutor.execute(TriggerExecutor.scala:57)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runActivatedStream(MicroBatchExecution.scala:187)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.StreamExecution.$anonfun$runStream$1(StreamExecution.scala:303)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.StreamExecution.org$apache$spark$sql$execution$streaming$StreamExecution$$runStream(StreamExecution.scala:286)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.run(StreamExecution.scala:209)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.io.NotSerializableException: scala.reflect.io.File[0m
+[0m[[0m[31merror[0m] [0m[0mSerialization stack:[0m
+[0m[[0m[31merror[0m] [0m[0m	- object not serializable (class: scala.reflect.io.File, value: result.txt)[0m
+[0m[[0m[31merror[0m] [0m[0m	- element of array (index: 0)[0m
+[0m[[0m[31merror[0m] [0m[0m	- array (class [Ljava.lang.Object;, size 1)[0m
+[0m[[0m[31merror[0m] [0m[0m	- field (class: java.lang.invoke.SerializedLambda, name: capturedArgs, type: class [Ljava.lang.Object;)[0m
+[0m[[0m[31merror[0m] [0m[0m	- object (class java.lang.invoke.SerializedLambda, SerializedLambda[capturingClass=class KafkaTest$, functionalInterfaceMethod=scala/Function1.apply:(Ljava/lang/Object;)Ljava/lang/Object;, implementation=invokeStatic KafkaTest$.$anonfun$main$2$adapted:(Lscala/reflect/io/File;Lorg/apache/spark/sql/Row;)Ljava/lang/Object;, instantiatedMethodType=(Lorg/apache/spark/sql/Row;)Ljava/lang/Object;, numCaptured=1])[0m
+[0m[[0m[31merror[0m] [0m[0m	- writeReplace data (class: java.lang.invoke.SerializedLambda)[0m
+[0m[[0m[31merror[0m] [0m[0m	- object (class KafkaTest$$$Lambda$7819/0x0000000842676840, KafkaTest$$$Lambda$7819/0x0000000842676840@7e5d6594)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.serializer.SerializationDebugger$.improveException(SerializationDebugger.scala:41)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.serializer.JavaSerializationStream.writeObject(JavaSerializer.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.serializer.JavaSerializerInstance.serialize(JavaSerializer.scala:101)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.util.ClosureCleaner$.ensureSerializable(ClosureCleaner.scala:413)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.util.ClosureCleaner$.clean(ClosureCleaner.scala:406)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.util.ClosureCleaner$.clean(ClosureCleaner.scala:162)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.SparkContext.clean(SparkContext.scala:2477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.rdd.RDD.$anonfun$foreach$1(RDD.scala:1011)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.rdd.RDD.withScope(RDD.scala:414)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.rdd.RDD.foreach(RDD.scala:1010)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.$anonfun$foreach$1(Dataset.scala:2893)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.$anonfun$withNewRDDExecutionId$1(Dataset.scala:3695)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.withNewRDDExecutionId(Dataset.scala:3693)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.foreach(Dataset.scala:2893)[0m
+[0m[[0m[31merror[0m] [0m[0m	at KafkaTest$.$anonfun$main$1(KafkaTest.scala:24)[0m
+[0m[[0m[31merror[0m] [0m[0m	at KafkaTest$.$anonfun$main$1$adapted(KafkaTest.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.sources.ForeachBatchSink.addBatch(ForeachBatchSink.scala:35)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$17(MicroBatchExecution.scala:600)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$16(MicroBatchExecution.scala:598)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:375)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:69)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runBatch(MicroBatchExecution.scala:598)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$2(MicroBatchExecution.scala:228)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:375)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:69)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$1(MicroBatchExecution.scala:193)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.ProcessingTimeExecutor.execute(TriggerExecutor.scala:57)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runActivatedStream(MicroBatchExecution.scala:187)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.StreamExecution.$anonfun$runStream$1(StreamExecution.scala:303)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.StreamExecution.org$apache$spark$sql$execution$streaming$StreamExecution$$runStream(StreamExecution.scala:286)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.run(StreamExecution.scala:209)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) org.apache.spark.sql.streaming.StreamingQueryException: Task not serializable[0m
+[0m[[0m[31merror[0m] [0m[0m=== Streaming Query ===[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifier: [id = 4bef38f3-a022-479e-b473-996ccab70b77, runId = 49eafca7-8fb4-4405-8a8a-1bc1b9654db6][0m
+[0m[[0m[31merror[0m] [0m[0mCurrent Committed Offsets: {KafkaV2[Subscribe[SparkTest]]: {"SparkTest":{"0":41}}}[0m
+[0m[[0m[31merror[0m] [0m[0mCurrent Available Offsets: {KafkaV2[Subscribe[SparkTest]]: {"SparkTest":{"0":42}}}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mCurrent State: ACTIVE[0m
+[0m[[0m[31merror[0m] [0m[0mThread State: RUNNABLE[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mLogical Plan:[0m
+[0m[[0m[31merror[0m] [0m[0mProject [cast(key#7 as string) AS key#21, cast(value#8 as string) AS value#22][0m
+[0m[[0m[31merror[0m] [0m[0m+- StreamingDataSourceV2Relation [key#7, value#8, topic#9, partition#10, offset#11L, timestamp#12, timestampType#13], org.apache.spark.sql.kafka010.KafkaSourceProvider$KafkaScan@22044357, KafkaV2[Subscribe[SparkTest]][0m

@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/pcdm/hann/test/target/scala-2.13/kafkatest_2.13-1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/pcdm/hann/test/target/scala-2.13/classes/KafkaTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	myFile$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/pcdm/hann/test/target/scala-2.13/classes/myFile$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	myFile.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/pcdm/hann/test/target/scala-2.13/classes/myFile.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaTest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/pcdm/hann/test/target/scala-2.13/classes/KafkaTest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

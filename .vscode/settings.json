@@ -1,0 +1,11 @@
+{
+  "files.watcherExclude": {
+    "**/target": true
+  },
+  "cSpell.words": [
+    "elee",
+    "forflag",
+    "fortestt",
+    "secondlayer"
+  ]
+}
