@@ -7780,3 +7780,684 @@ Feb 12, 2023 11:29:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 45148
 Feb 13, 2023 12:02:08 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Feb 14, 2023 3:25:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47216
+Feb 14, 2023 3:32:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47561
+Feb 14, 2023 3:32:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47631
+Feb 14, 2023 3:34:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47815
+Feb 14, 2023 3:35:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48067
+Feb 14, 2023 3:39:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48357
+Feb 14, 2023 3:40:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48515
+Feb 14, 2023 3:45:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48630
+Feb 14, 2023 3:47:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48743
+Feb 14, 2023 3:48:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48835
+Feb 14, 2023 3:54:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49170
+Feb 14, 2023 4:15:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50961
+Feb 14, 2023 4:15:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50964
+Feb 14, 2023 4:15:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 51043
+Feb 14, 2023 4:16:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 51083
+Feb 14, 2023 4:29:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 52418
+Feb 14, 2023 4:37:41 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+Feb 14, 2023 4:38:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53047
+Feb 14, 2023 4:39:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53130
+Feb 14, 2023 4:42:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53371
+Feb 14, 2023 4:43:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53555
+Feb 14, 2023 4:45:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53669
+Feb 14, 2023 4:59:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54890
+Feb 14, 2023 5:04:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 55577
+Feb 14, 2023 5:04:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 55589
+Feb 14, 2023 5:04:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 55663
+Feb 14, 2023 5:08:42 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+Feb 14, 2023 5:16:12 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+Feb 14, 2023 5:19:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 57597
+2023.02.14 17:21:21 INFO  compiling test (1 scala source)
+2023.02.14 17:21:22 INFO  time: compiled test in 1.83s
+2023.02.14 17:21:29 INFO  compiling test (3 scala sources)
+2023.02.14 17:21:30 INFO  time: compiled test in 1.4s
+2023.02.14 17:21:38 INFO  compiling test (1 scala source)
+2023.02.14 17:21:38 INFO  time: compiled test in 0.35s
+2023.02.14 17:21:46 INFO  compiling test (1 scala source)
+2023.02.14 17:21:46 INFO  time: compiled test in 0.34s
+Feb 14, 2023 5:21:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 57706
+2023.02.14 17:22:01 INFO  compiling test (1 scala source)
+2023.02.14 17:22:02 INFO  time: compiled test in 1.31s
+Feb 14, 2023 5:22:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 57793
+2023.02.14 17:22:49 INFO  compiling test (1 scala source)
+2023.02.14 17:22:49 INFO  time: compiled test in 0.14s
+2023.02.14 17:23:05 INFO  compiling test (1 scala source)
+2023.02.14 17:23:05 INFO  time: compiled test in 86ms
+2023.02.14 17:23:19 INFO  compiling test (1 scala source)
+2023.02.14 17:23:19 INFO  time: compiled test in 77ms
+2023.02.14 17:23:28 INFO  compiling test (1 scala source)
+2023.02.14 17:23:28 INFO  time: compiled test in 0.34s
+2023.02.14 17:23:40 INFO  compiling test (1 scala source)
+2023.02.14 17:23:41 INFO  time: compiled test in 1.01s
+2023.02.14 17:23:53 INFO  compiling test (1 scala source)
+2023.02.14 17:23:54 INFO  time: compiled test in 1.04s
+2023.02.14 17:24:14 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:24:15 INFO  Configured debugger context in 1 second
+2023.02.14 17:24:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:24:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:24:15 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:24:15 INFO  Trying to attach to remote debuggee VM localhost:36245 .
+2023.02.14 17:24:15 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:24:15 INFO  Closing debug server tcp://0.0.0.0:46401
+2023.02.14 17:24:15 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:24:55 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:24:55 INFO  Configured debugger context in 963 milliseconds
+2023.02.14 17:24:56 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:24:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:24:56 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:24:56 INFO  Trying to attach to remote debuggee VM localhost:35493 .
+2023.02.14 17:24:56 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:26:38 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:26:38 INFO  Closing debug server tcp://0.0.0.0:34513
+Feb 14, 2023 5:26:38 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:152)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:68)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:118)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 16 more
+
+2023.02.14 17:27:31 INFO  compiling test (1 scala source)
+2023.02.14 17:27:31 INFO  time: compiled test in 0.88s
+2023.02.14 17:27:38 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:27:38 INFO  Configured debugger context in 899 milliseconds
+2023.02.14 17:27:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:27:40 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:27:40 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:27:40 INFO  Trying to attach to remote debuggee VM localhost:37699 .
+2023.02.14 17:27:40 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:27:40 INFO  Closing debug server tcp://0.0.0.0:40295
+2023.02.14 17:27:40 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:28:49 INFO  compiling test (1 scala source)
+2023.02.14 17:28:49 INFO  time: compiled test in 0.85s
+2023.02.14 17:28:50 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 12m 30.099s)
+2023.02.14 17:28:50 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:28:50 INFO  Configured debugger context in 771 milliseconds
+2023.02.14 17:28:51 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:28:51 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:28:51 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:28:50 INFO  Trying to attach to remote debuggee VM localhost:35417 .
+2023.02.14 17:28:50 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:28:51 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:28:52 INFO  Closing debug server tcp://0.0.0.0:45811
+2023.02.14 17:29:10 INFO  compiling test (1 scala source)
+2023.02.14 17:29:10 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 12m 49.404s)
+2023.02.14 17:29:10 INFO  compiling test (1 scala source)
+2023.02.14 17:29:10 INFO  time: compiled test in 0.71s
+2023.02.14 17:29:10 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:29:11 INFO  Configured debugger context in 751 milliseconds
+2023.02.14 17:29:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:29:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:29:11 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:29:11 INFO  Trying to attach to remote debuggee VM localhost:42321 .
+2023.02.14 17:29:11 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:29:11 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:29:11 INFO  Closing debug server tcp://0.0.0.0:36567
+2023.02.14 17:29:23 INFO  compiling test (1 scala source)
+2023.02.14 17:29:24 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/testApp.scala
+2023.02.14 17:29:23 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 13m 3.563s)
+2023.02.14 17:29:23 INFO  compiling test (1 scala source)
+2023.02.14 17:29:23 INFO  time: compiled test in 0.17s
+2023.02.14 17:29:23 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:29:25 INFO  Configured debugger context in 953 milliseconds
+2023.02.14 17:29:25 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:29:25 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:29:25 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:29:25 INFO  Trying to attach to remote debuggee VM localhost:39137 .
+2023.02.14 17:29:25 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:29:25 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:29:25 INFO  Closing debug server tcp://0.0.0.0:38677
+Feb 14, 2023 5:30:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 58370
+2023.02.14 17:30:21 INFO  compiling test (1 scala source)
+2023.02.14 17:30:21 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 14m 1.679s)
+2023.02.14 17:30:21 INFO  compiling test (1 scala source)
+2023.02.14 17:30:21 INFO  time: compiled test in 77ms
+2023.02.14 17:30:21 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:30:23 INFO  Configured debugger context in 678 milliseconds
+2023.02.14 17:30:23 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:30:23 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:30:23 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:30:23 INFO  Trying to attach to remote debuggee VM localhost:43237 .
+2023.02.14 17:30:23 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:30:23 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:30:23 INFO  Closing debug server tcp://0.0.0.0:45541
+2023.02.14 17:30:59 INFO  compiling test (1 scala source)
+2023.02.14 17:30:59 INFO  time: compiled test in 0.74s
+2023.02.14 17:30:59 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 14m 39.004s)
+2023.02.14 17:30:59 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:31:00 INFO  Configured debugger context in 657 milliseconds
+2023.02.14 17:31:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:31:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:31:00 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:31:00 INFO  Trying to attach to remote debuggee VM localhost:46837 .
+2023.02.14 17:31:00 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:31:00 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:31:00 INFO  Closing debug server tcp://0.0.0.0:40521
+2023.02.14 17:31:09 INFO  compiling test (1 scala source)
+2023.02.14 17:31:09 INFO  time: compiled test in 0.76s
+2023.02.14 17:31:10 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 14m 50.01s)
+2023.02.14 17:31:10 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:31:10 INFO  Configured debugger context in 735 milliseconds
+2023.02.14 17:31:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:31:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:31:11 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:31:10 INFO  Trying to attach to remote debuggee VM localhost:40573 .
+2023.02.14 17:31:10 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:31:12 ERROR Exception in thread "main" java.lang.IndexOutOfBoundsException: 2
+2023.02.14 17:31:12 ERROR 	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:117)
+2023.02.14 17:31:12 ERROR 	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:114)
+2023.02.14 17:31:12 ERROR 	at scala.collection.mutable.ListBuffer.apply(ListBuffer.scala:60)
+2023.02.14 17:31:12 ERROR 	at testApp$.delayedEndpoint$testApp$1(testApp.scala:287)
+2023.02.14 17:31:12 ERROR 	at testApp$delayedInit$body.apply(testApp.scala:1)
+2023.02.14 17:31:12 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2023.02.14 17:31:12 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2023.02.14 17:31:12 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2023.02.14 17:31:12 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)
+2023.02.14 17:31:12 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+2023.02.14 17:31:12 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+2023.02.14 17:31:12 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+2023.02.14 17:31:12 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+2023.02.14 17:31:12 ERROR 	at scala.App.main(App.scala:76)
+2023.02.14 17:31:12 ERROR 	at scala.App.main$(App.scala:74)
+2023.02.14 17:31:12 ERROR 	at testApp$.main(testApp.scala:1)
+2023.02.14 17:31:12 ERROR 	at testApp.main(testApp.scala)
+2023.02.14 17:31:12 INFO  Closing debug server tcp://0.0.0.0:35383
+2023.02.14 17:31:11 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:31:19 INFO  compiling test (1 scala source)
+2023.02.14 17:31:19 INFO  time: compiled test in 0.72s
+2023.02.14 17:31:20 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:31:20 INFO  Configured debugger context in 675 milliseconds
+2023.02.14 17:31:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:31:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:31:21 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:31:20 INFO  Trying to attach to remote debuggee VM localhost:37781 .
+2023.02.14 17:31:20 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:31:21 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:31:21 INFO  Closing debug server tcp://0.0.0.0:37441
+2023.02.14 17:34:46 INFO  compiling test (1 scala source)
+2023.02.14 17:34:46 INFO  time: compiled test in 0.14s
+2023.02.14 17:35:20 INFO  compiling test (1 scala source)
+2023.02.14 17:35:20 INFO  time: compiled test in 0.79s
+2023.02.14 17:35:23 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 19m 2.735s)
+2023.02.14 17:35:23 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:35:23 INFO  Configured debugger context in 616 milliseconds
+2023.02.14 17:35:24 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:35:24 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:35:24 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:35:23 INFO  Trying to attach to remote debuggee VM localhost:33039 .
+2023.02.14 17:35:23 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:35:24 ERROR Exception in thread "main" java.lang.IndexOutOfBoundsException: 2
+2023.02.14 17:35:24 ERROR 	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:117)
+2023.02.14 17:35:24 ERROR 	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:114)
+2023.02.14 17:35:24 ERROR 	at scala.collection.mutable.ListBuffer.apply(ListBuffer.scala:60)
+2023.02.14 17:35:24 ERROR 	at testApp$.delayedEndpoint$testApp$1(testApp.scala:315)
+2023.02.14 17:35:24 ERROR 	at testApp$delayedInit$body.apply(testApp.scala:1)
+2023.02.14 17:35:24 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2023.02.14 17:35:24 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2023.02.14 17:35:24 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2023.02.14 17:35:24 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)
+2023.02.14 17:35:24 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+2023.02.14 17:35:24 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+2023.02.14 17:35:24 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+2023.02.14 17:35:24 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+2023.02.14 17:35:24 ERROR 	at scala.App.main(App.scala:76)
+2023.02.14 17:35:24 ERROR 	at scala.App.main$(App.scala:74)
+2023.02.14 17:35:24 ERROR 	at testApp$.main(testApp.scala:1)
+2023.02.14 17:35:24 ERROR 	at testApp.main(testApp.scala)
+2023.02.14 17:35:24 INFO  Closing debug server tcp://0.0.0.0:44209
+2023.02.14 17:35:24 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:35:39 INFO  compiling test (1 scala source)
+2023.02.14 17:35:39 INFO  time: compiled test in 0.75s
+2023.02.14 17:35:41 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 19m 20.835s)
+2023.02.14 17:35:41 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:35:41 INFO  Configured debugger context in 697 milliseconds
+2023.02.14 17:35:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:35:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:35:42 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:35:41 INFO  Trying to attach to remote debuggee VM localhost:43833 .
+2023.02.14 17:35:41 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:35:42 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:35:42 INFO  Closing debug server tcp://0.0.0.0:44543
+2023.02.14 17:35:58 INFO  compiling test (1 scala source)
+2023.02.14 17:35:58 INFO  time: compiled test in 0.72s
+2023.02.14 17:35:59 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 19m 38.851s)
+2023.02.14 17:35:59 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:36:00 INFO  Configured debugger context in 1 second
+2023.02.14 17:36:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:36:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:36:00 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:36:00 INFO  Trying to attach to remote debuggee VM localhost:44365 .
+2023.02.14 17:36:00 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:36:00 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:36:00 INFO  Closing debug server tcp://0.0.0.0:37243
+2023.02.14 17:36:27 INFO  compiling test (1 scala source)
+2023.02.14 17:36:27 INFO  time: compiled test in 0.75s
+2023.02.14 17:36:41 INFO  compiling test (1 scala source)
+2023.02.14 17:36:41 INFO  time: compiled test in 0.7s
+2023.02.14 17:36:44 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 20m 23.169s)
+2023.02.14 17:36:44 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:36:44 INFO  Configured debugger context in 700 milliseconds
+2023.02.14 17:36:44 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:36:44 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:36:44 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:36:44 INFO  Trying to attach to remote debuggee VM localhost:40799 .
+2023.02.14 17:36:44 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:36:44 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:36:45 INFO  Closing debug server tcp://0.0.0.0:42579
+2023.02.14 17:36:55 INFO  compiling test (1 scala source)
+2023.02.14 17:36:55 INFO  time: compiled test in 0.67s
+2023.02.14 17:36:55 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 20m 35.684s)
+2023.02.14 17:36:55 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:36:57 INFO  Configured debugger context in 788 milliseconds
+2023.02.14 17:36:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:36:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:36:57 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:36:57 INFO  Trying to attach to remote debuggee VM localhost:42663 .
+2023.02.14 17:36:57 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:36:57 ERROR Exception in thread "main" java.lang.IndexOutOfBoundsException: 3
+2023.02.14 17:36:57 ERROR 	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:117)
+2023.02.14 17:36:57 ERROR 	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:114)
+2023.02.14 17:36:57 ERROR 	at scala.collection.mutable.ListBuffer.apply(ListBuffer.scala:60)
+2023.02.14 17:36:57 ERROR 	at testApp$.delayedEndpoint$testApp$1(testApp.scala:300)
+2023.02.14 17:36:57 ERROR 	at testApp$delayedInit$body.apply(testApp.scala:1)
+2023.02.14 17:36:57 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2023.02.14 17:36:57 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2023.02.14 17:36:57 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2023.02.14 17:36:57 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)
+2023.02.14 17:36:57 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+2023.02.14 17:36:57 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+2023.02.14 17:36:57 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+2023.02.14 17:36:57 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+2023.02.14 17:36:57 ERROR 	at scala.App.main(App.scala:76)
+2023.02.14 17:36:57 ERROR 	at scala.App.main$(App.scala:74)
+2023.02.14 17:36:57 ERROR 	at testApp$.main(testApp.scala:1)
+2023.02.14 17:36:57 ERROR 	at testApp.main(testApp.scala)
+2023.02.14 17:36:57 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:36:57 INFO  Closing debug server tcp://0.0.0.0:36273
+2023.02.14 17:37:14 INFO  compiling test (1 scala source)
+2023.02.14 17:37:14 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 20m 54.122s)
+2023.02.14 17:37:14 INFO  compiling test (1 scala source)
+2023.02.14 17:37:14 INFO  time: compiled test in 40ms
+2023.02.14 17:37:14 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:37:15 INFO  Configured debugger context in 729 milliseconds
+2023.02.14 17:37:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:37:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:37:15 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:37:15 INFO  Trying to attach to remote debuggee VM localhost:33355 .
+2023.02.14 17:37:15 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:37:15 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:37:15 INFO  Closing debug server tcp://0.0.0.0:35593
+Feb 14, 2023 5:40:42 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2023.02.14 17:40:59 INFO  compiling test (1 scala source)
+2023.02.14 17:40:59 INFO  time: compiled test in 0.71s
+2023.02.14 17:43:22 INFO  compiling test (1 scala source)
+2023.02.14 17:43:22 INFO  time: compiled test in 0.72s
+2023.02.14 17:43:24 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 27m 4.09s)
+2023.02.14 17:43:24 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:43:24 INFO  Configured debugger context in 690 milliseconds
+2023.02.14 17:43:25 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:43:25 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:43:25 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:43:24 INFO  Trying to attach to remote debuggee VM localhost:41567 .
+2023.02.14 17:43:24 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:43:26 ERROR Exception in thread "main" java.lang.IndexOutOfBoundsException: 2
+2023.02.14 17:43:26 ERROR 	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:117)
+2023.02.14 17:43:26 ERROR 	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:114)
+2023.02.14 17:43:26 ERROR 	at scala.collection.mutable.ListBuffer.apply(ListBuffer.scala:60)
+2023.02.14 17:43:26 ERROR 	at testApp$.delayedEndpoint$testApp$1(testApp.scala:319)
+2023.02.14 17:43:26 ERROR 	at testApp$delayedInit$body.apply(testApp.scala:1)
+2023.02.14 17:43:26 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2023.02.14 17:43:26 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2023.02.14 17:43:26 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2023.02.14 17:43:26 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)
+2023.02.14 17:43:26 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+2023.02.14 17:43:26 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+2023.02.14 17:43:26 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+2023.02.14 17:43:26 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+2023.02.14 17:43:26 ERROR 	at scala.App.main(App.scala:76)
+2023.02.14 17:43:26 ERROR 	at scala.App.main$(App.scala:74)
+2023.02.14 17:43:26 ERROR 	at testApp$.main(testApp.scala:1)
+2023.02.14 17:43:26 ERROR 	at testApp.main(testApp.scala)
+2023.02.14 17:43:26 INFO  Closing debug server tcp://0.0.0.0:36769
+2023.02.14 17:43:25 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:43:41 INFO  compiling test (1 scala source)
+2023.02.14 17:43:41 INFO  time: compiled test in 0.7s
+2023.02.14 17:43:41 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 27m 21.849s)
+2023.02.14 17:43:41 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:43:43 INFO  Configured debugger context in 744 milliseconds
+2023.02.14 17:43:43 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:43:43 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:43:43 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:43:43 INFO  Trying to attach to remote debuggee VM localhost:36723 .
+2023.02.14 17:43:43 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:43:43 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:43:43 INFO  Closing debug server tcp://0.0.0.0:34091
+2023.02.14 17:43:49 INFO  compiling test (1 scala source)
+2023.02.14 17:43:49 INFO  time: compiled test in 0.69s
+2023.02.14 17:44:26 INFO  compiling test (1 scala source)
+2023.02.14 17:44:26 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 28m 5.907s)
+2023.02.14 17:44:26 INFO  compiling test (1 scala source)
+2023.02.14 17:44:26 INFO  time: compiled test in 0.62s
+2023.02.14 17:44:26 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 28m 6.541s)
+2023.02.14 17:44:26 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:44:28 INFO  Configured debugger context in 746 milliseconds
+2023.02.14 17:44:28 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:44:28 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:44:28 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:44:28 INFO  Trying to attach to remote debuggee VM localhost:37673 .
+2023.02.14 17:44:28 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:44:28 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:44:28 INFO  Closing debug server tcp://0.0.0.0:38327
+2023.02.14 17:44:46 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/testApp.scala
+2023.02.14 17:44:46 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/testApp.scala
+2023.02.14 17:44:46 INFO  compiling test (1 scala source)
+2023.02.14 17:44:46 INFO  time: compiled test in 0.67s
+2023.02.14 17:44:46 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 28m 26.026s)
+2023.02.14 17:44:46 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:44:47 INFO  Configured debugger context in 785 milliseconds
+2023.02.14 17:44:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:44:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:44:47 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:44:47 INFO  Trying to attach to remote debuggee VM localhost:41507 .
+2023.02.14 17:44:47 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:44:47 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:44:47 INFO  Closing debug server tcp://0.0.0.0:33135
+2023.02.14 17:45:01 INFO  compiling test (1 scala source)
+2023.02.14 17:45:01 INFO  time: compiled test in 0.7s
+2023.02.14 17:45:08 INFO  compiling test (1 scala source)
+2023.02.14 17:45:08 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 28m 47.461s)
+2023.02.14 17:45:08 INFO  compiling test (1 scala source)
+2023.02.14 17:45:08 INFO  time: compiled test in 0.46s
+2023.02.14 17:45:08 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 28m 47.929s)
+2023.02.14 17:45:08 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:45:09 INFO  Configured debugger context in 727 milliseconds
+2023.02.14 17:45:09 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:45:09 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:45:09 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:45:09 INFO  Trying to attach to remote debuggee VM localhost:35699 .
+2023.02.14 17:45:09 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:45:09 ERROR Exception in thread "main" java.lang.IndexOutOfBoundsException: 1
+2023.02.14 17:45:09 ERROR 	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:117)
+2023.02.14 17:45:09 ERROR 	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:114)
+2023.02.14 17:45:09 ERROR 	at scala.collection.mutable.ListBuffer.apply(ListBuffer.scala:60)
+2023.02.14 17:45:09 ERROR 	at testApp$.delayedEndpoint$testApp$1(testApp.scala:317)
+2023.02.14 17:45:09 ERROR 	at testApp$delayedInit$body.apply(testApp.scala:1)
+2023.02.14 17:45:09 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2023.02.14 17:45:09 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2023.02.14 17:45:09 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2023.02.14 17:45:09 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)
+2023.02.14 17:45:09 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+2023.02.14 17:45:09 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+2023.02.14 17:45:09 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+2023.02.14 17:45:09 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+2023.02.14 17:45:09 ERROR 	at scala.App.main(App.scala:76)
+2023.02.14 17:45:09 ERROR 	at scala.App.main$(App.scala:74)
+2023.02.14 17:45:09 ERROR 	at testApp$.main(testApp.scala:1)
+2023.02.14 17:45:09 ERROR 	at testApp.main(testApp.scala)
+2023.02.14 17:45:09 INFO  Closing debug server tcp://0.0.0.0:40067
+2023.02.14 17:45:10 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:48:42 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 32m 21.463s)
+2023.02.14 17:48:42 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:48:42 INFO  Configured debugger context in 739 milliseconds
+2023.02.14 17:48:43 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:48:43 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:48:43 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:48:42 INFO  Trying to attach to remote debuggee VM localhost:37401 .
+2023.02.14 17:48:42 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:48:43 ERROR Exception in thread "main" java.lang.IndexOutOfBoundsException: 1
+2023.02.14 17:48:43 ERROR 	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:117)
+2023.02.14 17:48:43 ERROR 	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:114)
+2023.02.14 17:48:43 ERROR 	at scala.collection.mutable.ListBuffer.apply(ListBuffer.scala:60)
+2023.02.14 17:48:43 ERROR 	at testApp$.delayedEndpoint$testApp$1(testApp.scala:317)
+2023.02.14 17:48:43 ERROR 	at testApp$delayedInit$body.apply(testApp.scala:1)
+2023.02.14 17:48:43 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2023.02.14 17:48:43 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2023.02.14 17:48:43 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2023.02.14 17:48:43 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)
+2023.02.14 17:48:43 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+2023.02.14 17:48:43 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+2023.02.14 17:48:43 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+2023.02.14 17:48:43 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+2023.02.14 17:48:43 ERROR 	at scala.App.main(App.scala:76)
+2023.02.14 17:48:43 ERROR 	at scala.App.main$(App.scala:74)
+2023.02.14 17:48:43 ERROR 	at testApp$.main(testApp.scala:1)
+2023.02.14 17:48:43 ERROR 	at testApp.main(testApp.scala)
+2023.02.14 17:48:43 INFO  Closing debug server tcp://0.0.0.0:43457
+2023.02.14 17:48:43 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:49:14 INFO  compiling test (1 scala source)
+2023.02.14 17:49:14 INFO  time: compiled test in 0.71s
+2023.02.14 17:50:02 INFO  compiling test (1 scala source)
+2023.02.14 17:50:03 INFO  time: compiled test in 1.09s
+2023.02.14 17:53:45 INFO  compiling test (1 scala source)
+2023.02.14 17:53:45 INFO  time: compiled test in 0.72s
+2023.02.14 17:53:45 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 37m 25.637s)
+2023.02.14 17:53:45 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:53:47 INFO  Configured debugger context in 588 milliseconds
+2023.02.14 17:53:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:53:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:53:47 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:53:47 INFO  Trying to attach to remote debuggee VM localhost:37981 .
+2023.02.14 17:53:47 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:53:47 ERROR Exception in thread "main" java.lang.IndexOutOfBoundsException: 1
+2023.02.14 17:53:47 ERROR 	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:117)
+2023.02.14 17:53:47 ERROR 	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:114)
+2023.02.14 17:53:47 ERROR 	at scala.collection.mutable.ListBuffer.apply(ListBuffer.scala:60)
+2023.02.14 17:53:47 ERROR 	at testApp$.delayedEndpoint$testApp$1(testApp.scala:342)
+2023.02.14 17:53:47 ERROR 	at testApp$delayedInit$body.apply(testApp.scala:1)
+2023.02.14 17:53:47 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2023.02.14 17:53:47 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2023.02.14 17:53:47 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2023.02.14 17:53:47 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)
+2023.02.14 17:53:47 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+2023.02.14 17:53:47 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+2023.02.14 17:53:47 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+2023.02.14 17:53:47 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+2023.02.14 17:53:47 ERROR 	at scala.App.main(App.scala:76)
+2023.02.14 17:53:47 ERROR 	at scala.App.main$(App.scala:74)
+2023.02.14 17:53:47 ERROR 	at testApp$.main(testApp.scala:1)
+2023.02.14 17:53:47 ERROR 	at testApp.main(testApp.scala)
+2023.02.14 17:53:47 INFO  Closing debug server tcp://0.0.0.0:45565
+2023.02.14 17:53:47 INFO  Canceling debug proxy for [testApp]
+Feb 14, 2023 5:56:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 60849
+2023.02.14 17:57:06 INFO  compiling test (1 scala source)
+2023.02.14 17:57:06 INFO  time: compiled test in 0.71s
+2023.02.14 17:57:08 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 40m 47.836s)
+2023.02.14 17:57:08 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:57:08 INFO  Configured debugger context in 711 milliseconds
+2023.02.14 17:57:09 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:57:09 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:57:09 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:57:08 INFO  Trying to attach to remote debuggee VM localhost:35671 .
+2023.02.14 17:57:08 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:57:10 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:57:10 INFO  Closing debug server tcp://0.0.0.0:43411
+2023.02.14 17:57:43 INFO  compiling test (1 scala source)
+2023.02.14 17:57:43 INFO  time: compiled test in 0.71s
+2023.02.14 17:57:46 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 41m 25.475s)
+2023.02.14 17:57:46 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:57:46 INFO  Configured debugger context in 718 milliseconds
+2023.02.14 17:57:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:57:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:57:47 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:57:46 INFO  Trying to attach to remote debuggee VM localhost:40991 .
+2023.02.14 17:57:46 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:57:47 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:57:47 INFO  Closing debug server tcp://0.0.0.0:36249
+2023.02.14 17:58:30 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 42m 9.602s)
+2023.02.14 17:58:30 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:58:31 INFO  Configured debugger context in 1 second
+2023.02.14 17:58:31 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:58:31 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:58:31 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:58:31 INFO  Trying to attach to remote debuggee VM localhost:45555 .
+2023.02.14 17:58:31 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:58:31 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:58:31 INFO  Closing debug server tcp://0.0.0.0:37347
+Feb 14, 2023 5:58:48 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2023.02.14 17:58:53 INFO  compiling test (1 scala source)
+2023.02.14 17:58:53 INFO  time: compiled test in 0.69s
+2023.02.14 17:58:57 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 42m 36.619s)
+2023.02.14 17:58:57 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:58:57 INFO  Configured debugger context in 838 milliseconds
+2023.02.14 17:58:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:58:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:58:58 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:58:57 INFO  Trying to attach to remote debuggee VM localhost:46527 .
+2023.02.14 17:58:57 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:58:58 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:58:58 INFO  Closing debug server tcp://0.0.0.0:33103
+2023.02.14 17:59:15 INFO  compiling test (1 scala source)
+2023.02.14 17:59:15 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 42m 55.147s)
+2023.02.14 17:59:15 INFO  compiling test (1 scala source)
+2023.02.14 17:59:15 INFO  time: compiled test in 8ms
+2023.02.14 17:59:15 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:59:16 INFO  Configured debugger context in 711 milliseconds
+2023.02.14 17:59:16 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:59:16 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:59:16 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:59:16 INFO  Trying to attach to remote debuggee VM localhost:45053 .
+2023.02.14 17:59:16 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:59:16 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:59:16 INFO  Closing debug server tcp://0.0.0.0:45447
+2023.02.14 17:59:31 INFO  compiling test (1 scala source)
+2023.02.14 17:59:31 INFO  time: compiled test in 0.67s
+2023.02.14 17:59:34 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 43m 13.415s)
+2023.02.14 17:59:34 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 17:59:34 INFO  Configured debugger context in 752 milliseconds
+2023.02.14 17:59:35 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 17:59:35 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 17:59:35 INFO  Starting debug proxy for [testApp]
+2023.02.14 17:59:34 INFO  Trying to attach to remote debuggee VM localhost:34651 .
+2023.02.14 17:59:34 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 17:59:35 ERROR Exception in thread "main" java.lang.IndexOutOfBoundsException: 2
+2023.02.14 17:59:35 ERROR 	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:117)
+2023.02.14 17:59:35 ERROR 	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:114)
+2023.02.14 17:59:35 ERROR 	at scala.collection.mutable.ListBuffer.apply(ListBuffer.scala:60)
+2023.02.14 17:59:35 ERROR 	at testApp$.delayedEndpoint$testApp$1(testApp.scala:348)
+2023.02.14 17:59:35 ERROR 	at testApp$delayedInit$body.apply(testApp.scala:1)
+2023.02.14 17:59:35 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2023.02.14 17:59:35 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2023.02.14 17:59:35 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2023.02.14 17:59:35 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)
+2023.02.14 17:59:35 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+2023.02.14 17:59:35 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+2023.02.14 17:59:35 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+2023.02.14 17:59:35 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+2023.02.14 17:59:35 ERROR 	at scala.App.main(App.scala:76)
+2023.02.14 17:59:35 ERROR 	at scala.App.main$(App.scala:74)
+2023.02.14 17:59:35 ERROR 	at testApp$.main(testApp.scala:1)
+2023.02.14 17:59:35 ERROR 	at testApp.main(testApp.scala)
+2023.02.14 17:59:35 INFO  Canceling debug proxy for [testApp]
+2023.02.14 17:59:35 INFO  Closing debug server tcp://0.0.0.0:39617
+2023.02.14 18:00:02 INFO  compiling test (1 scala source)
+2023.02.14 18:00:02 INFO  time: compiled test in 0.67s
+2023.02.14 18:00:04 INFO  Deduplicating compilation of test from bsp client 'Metals 0.11.10' (since 69h 43m 43.55s)
+2023.02.14 18:00:04 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, testApp)
+2023.02.14 18:00:04 INFO  Configured debugger context in 710 milliseconds
+2023.02.14 18:00:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.02.14 18:00:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.02.14 18:00:05 INFO  Starting debug proxy for [testApp]
+2023.02.14 18:00:04 INFO  Trying to attach to remote debuggee VM localhost:41963 .
+2023.02.14 18:00:04 INFO  Attaching to debuggee VM succeeded.
+2023.02.14 18:00:05 INFO  Canceling debug proxy for [testApp]
+2023.02.14 18:00:05 INFO  Closing debug server tcp://0.0.0.0:46641
+2023.02.14 18:00:20 INFO  compiling test (1 scala source)
+2023.02.14 18:00:20 INFO  time: compiled test in 0.68s
+Feb 14, 2023 6:03:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 61589
+Feb 14, 2023 6:12:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 62215
+Feb 14, 2023 6:13:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 62427
+Feb 14, 2023 6:18:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 62912
+Feb 14, 2023 6:18:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63016
+Feb 14, 2023 6:19:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63112
+Feb 14, 2023 6:19:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63118
+Feb 14, 2023 6:19:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63164
+2023.02.14 19:30:58 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/lsp.trace.json or /home/pcdm/.cache/metals/lsp.trace.json
+2023.02.14 19:30:58 INFO  logging to file /home/pcdm/hann/test/.metals/metals.log
+2023.02.14 19:30:58 INFO  Started: Metals version 0.11.10 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.14 19:31:02 INFO  time: initialize in 4.34s
+2023.02.14 19:31:02 INFO  Attempting to connect to the build server...
+2023.02.14 19:31:02 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.14 19:31:03 INFO  skipping build import with status 'Installed'
+2023.02.14 19:31:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.14 19:31:06 INFO  Attempting to connect to the build server...
+2023.02.14 19:31:06 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.14 19:31:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.14 19:31:06 INFO  time: Connected to build server in 2.97s
+2023.02.14 19:31:06 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.14 19:31:07 INFO  no build target found for /home/pcdm/hann/test/src/main/scala/finaltest.sc. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.14 19:31:07 INFO  time: Imported build in 0.16s
+2023.02.14 19:31:07 INFO  no build target found for /home/pcdm/hann/test/src/main/scala/finaltest.sc. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.14 19:31:09 INFO  time: indexed workspace in 2.07s
+Feb 14, 2023 7:31:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

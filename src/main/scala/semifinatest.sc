@@ -9,9 +9,11 @@ val second_layer_node_map = scala.collection.mutable.Map[String, Node]() // 存s
 val second_layer_node_List = ListBuffer[Node]() //用來把second layer node 連接到leaf node
 var second_layer_set = Set[Set[String]]() //還沒用到
 
+
+
 var inner_expression: ListBuffer[String] = new ListBuffer[String]() // 暫時用不到了
 
-
+var inner_Node_Map_Set_key = scala.collection.mutable.Map[Set[String], inner_Node]()
 
 
 val global_Node_map = scala.collection.mutable.Map[String, Node]() // 全局的node map
@@ -56,6 +58,11 @@ class ATree() {
             connect_root_to_second_layer(new_node)
             second_layer_node_map.foreach(x => connect_leaf_to_secondlayer(split_to_leaf(x._1)))
             
+            if (root.size >1) {
+                combine_leaf_as_inner(leaf_count_map)
+            }
+
+
         } else {
             
         }
@@ -152,6 +159,8 @@ class ATree() {
     }
 
     private def connect_root_to_second_layer(rootNode: root_Node): Unit = { //把root node連接到second layer node
+        
+        
         if (rootNode.expression.contains('∨')) {
             rootNode.expression.split('∨').foreach(x => if (x.length() > 1) {
                 val new_node = new inner_Node(x)
@@ -159,6 +168,7 @@ class ATree() {
                 second_layer_node_map += (x -> new_node)
                 rootNode.child += new_node
                 second_layer_node_List += new_node
+                
             } else {
                 val new_node = new leaf_Node(x)
                 global_Node_map += (x -> new_node)
@@ -171,22 +181,80 @@ class ATree() {
             rootNode.child += new_node
             second_layer_node_map += (rootNode.expression -> new_node)
             second_layer_node_List += new_node
+            
         }
         
     }
     
-    
+
+    private def combine_leaf_as_inner(leaf_count_Map :scala.collection.mutable.Map[String, Int]) : Unit = {
+
+        val leaf_count_kv_pair = leaf_count_Map.toList.sortBy(_._2)(ord = Ordering[Int].reverse)
+        
+
+        
+        // for(second_layer_node <- second_layer_node_List) {
+        //     var will_be_delete_child = ListBuffer[Node]()
+        //     for(child <- second_layer_node.child) {
+        //         if(child.expression.length() > 1) {
+        //             will_be_delete_child += child
+        //         }
+        //     }
+        //     second_layer_node.child.diff(will_be_delete_child)
+            
+        // }
+
+
+
+        for (i <- 0 until leaf_count_kv_pair.size - 1 by 2) {
+            val new_combine_expression = leaf_count_kv_pair(i)._1 + "^" + leaf_count_kv_pair(i + 1)._1
+
+
+            
+
+            for (second_layer_node <- second_layer_node_List) {
+                if (second_layer_node.expression.contains(leaf_count_kv_pair(i)._1) & second_layer_node.expression.contains(leaf_count_kv_pair(i + 1)._1)) {
+                    val new_inner_node = inner_Node_Map_Set_key.getOrElse(Set(leaf_count_kv_pair(i)._1, leaf_count_kv_pair(i + 1)._1), new inner_Node(new_combine_expression))
+                    //inner_Node_map += (new_combine_expression -> new_inner_node)
+                    inner_Node_Map_Set_key +=  (Set(leaf_count_kv_pair(i)._1, leaf_count_kv_pair(i + 1)._1) -> new_inner_node)
+                    //inner_expression += new_combine_expression
+                    if (!second_layer_node.child.contains(inner_Node_Map_Set_key(Set(leaf_count_kv_pair(i)._1, leaf_count_kv_pair(i + 1)._1))) ) {
+                        second_layer_node.child += inner_Node_Map_Set_key(Set(leaf_count_kv_pair(i)._1, leaf_count_kv_pair(i + 1)._1))
+                    
+                        second_layer_node.child -= leaf_Node_map(leaf_count_kv_pair(i)._1)
+                        second_layer_node.child -= leaf_Node_map(leaf_count_kv_pair(i + 1)._1)
+                        new_inner_node.child += leaf_Node_map(leaf_count_kv_pair(i)._1)
+                        new_inner_node.child += leaf_Node_map(leaf_count_kv_pair(i + 1)._1)
+                    }
+                    second_layer_node.child -= leaf_Node_map(leaf_count_kv_pair(i)._1)
+                    second_layer_node.child -= leaf_Node_map(leaf_count_kv_pair(i + 1)._1)
+
+                    
+
+                }
+                
+            }
+            
+
+        }
+
+    }
+
 }
 
 
 
 val tree = new ATree
 tree.insert("A^B^E^D")
-tree.insert("A^E^B")
-tree.insert("B^D∨E")
+tree.insert("A^B^C^D")
+tree.insert("A^E^B^F")
+tree.insert("B^D^E")
 tree.insert("B^E^F")
 tree.insert("C^D^E")
 tree.insert("F^E^G")
+// tree.insert("B^D^Z^X")
+// tree.insert("B^D^Y^K")
+// tree.insert("B^D^Y^L")
 // println(tree.root(0).expression)
 // println(tree.root(1).expression)
 // //println(tree.root(0).child.size)
@@ -208,8 +276,23 @@ println(leaf_count_map.toList.sortBy(_._2)(ord = Ordering[Int].reverse))
 
 //global_Node_map.foreach(x => print(x._1 + " -> " + x._2.expression + ", "))
 println("\n---------------")
-println(second_layer_node_map.size)
+//println(second_layer_node_map.size)
 //second_layer_node_map.foreach(x => print(x._1 + " -> " + x._2 + ", "))
-println(tree.root(2).child(1).expression)
+tree.root(0).child.foreach(x => print(x.expression + ", "))
+println("\n--------------------")
 
-leaf_Node_map.foreach(x => print(x._1 + " -> " + x._2.expression + ", "))
+
+// println(tree.root(1).child(0).expression)
+// println(tree.root(1).child(0).child.size)
+// println(tree.root(1).child(0).child(0).expression)
+// println(tree.root(1).child(0).child(1).expression)
+// //println(tree.root(0).child(0).child(0).equals(tree.root(1).child(0).child(0)))
+//  println(tree.root(1).child(0).child(2).expression)
+//  println(tree.root(1).child(0).child(3).expression)
+//println(tree.root(0).child(0).child(0).equals(tree.root(0).child(0).child(1)))
+
+//inner_Node_Map_Set_key.foreach(x => print(x._1 + " -> " + x._2.expression + ", "))
+//println(inner_Node_Map_Set_key.size)
+
+//println(inner_Node_Map_Set_key(Set("C", "G")).expression)
+//leaf_Node_map.foreach(x => print(x._1 + " -> " + x._2.expression + ", "))
