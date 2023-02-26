@@ -8983,3 +8983,31 @@ something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc i
 something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in List[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 282, 282, 294)
 Feb 26, 2023 9:58:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in List[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 282, 282, 294)
+Feb 26, 2023 10:08:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9661
+Feb 26, 2023 10:20:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10283
+Feb 26, 2023 10:20:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10314
+Feb 26, 2023 10:21:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10327
+Feb 26, 2023 10:24:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10414
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in Set[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 6248, 6248, 6258)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 6248, 6248, 6259)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 6248, 6248, 6260)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 6248, 6248, 6261)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in Set[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 6252, 6252, 6262)
+Feb 26, 2023 10:30:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10667
+Feb 26, 2023 10:42:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11136
+Feb 26, 2023 10:48:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11602
+Feb 26, 2023 10:51:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11795
+Feb 26, 2023 10:53:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11928
+Feb 26, 2023 10:54:11 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
