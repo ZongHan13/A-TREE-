@@ -12,8 +12,8 @@ object KafkaTest {
   def main(args:Array[String]): Unit = {
   //fw.writeFirst
   import spark.implicits._
-
-  val df = spark.readStream.format("kafka").option("kafka.bootstrap.servers","134.208.2.169:9092").option("subscribe", "SparkTest").load()
+  
+  val df = spark.readStream.format("kafka").option("kafka.bootstrap.servers","134.208.2.169:9092").option("subscribe", "Test").load()
 
   val df1 =  df.selectExpr("CAST(key AS STRING)", "CAST(value AS STRING)")
   df1.printSchema()

@@ -17,7 +17,7 @@ println(set_map(Set("b", "a")))
 val testList = List(new Node("A"), new Node("B"), new Node("C"), new Node("D"))
 val fordiff = List(new Node("C"), new Node("D"))
 
-println()
+println("")
 
 testList.foreach(x => print(x.expression))
 

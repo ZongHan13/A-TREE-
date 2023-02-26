@@ -1,6 +1,7 @@
 import scala.collection.mutable.ListBuffer
 import scala.util.control.Breaks._
 
+
 val root_map = scala.collection.mutable.Map[String, Int]() //暫時沒用到
 val leaf_count_map = scala.collection.mutable.Map[String, Int]() //紀錄leaf node的數量
 
@@ -266,13 +267,13 @@ val tree = new ATree
 tree.insert("A^B^E^D")
 tree.insert("A^B^C^D")
 tree.insert("A^E^B^F")
-tree.insert("B^D^E")
-tree.insert("B^E^F")
-tree.insert("C^D^E")
-tree.insert("F^E^G")
-tree.insert("B^D^Z^X")
-tree.insert("B^D^Y^K")
-tree.insert("B^D^Y^L")
+// tree.insert("B^D^E")
+// tree.insert("B^E^F")
+// tree.insert("C^D^E")
+// tree.insert("F^E^G")
+// tree.insert("B^D^Z^X")
+// tree.insert("B^D^Y^K")
+// tree.insert("B^D^Y^L")
 // println(tree.root(0).expression)
 // println(tree.root(1).expression)
 // //println(tree.root(0).child.size)
@@ -309,16 +310,16 @@ println(tree.root(1).child(0).expression)
 println(tree.root(1).child(0).child.size)
 println(tree.root(1).child(0).child(0).expression)
 println(tree.root(1).child(0).child(1).expression)
-println(tree.root(1).child(0).child(2).expression)
+//println(tree.root(1).child(0).child(2).expression)
 println("")
-println(tree.root(1).child(0).child(2).child.size)
+//println(tree.root(1).child(0).child(2).child.size)
 
-tree.root(1).child(0).child(2).child.foreach(x => print(x.expression + ", "))
+tree.root(1).child(0).child(1).child.foreach(x => print(x.expression + ", "))
 
 
 
 println("\n-------------------------------")
-println(tree.root(0).child(0).child(0).equals(tree.root(1).child(0).child(2)))
+println(tree.root(0).child(0).child(0).equals(tree.root(1).child(0).child(1)))
 //println(tree.root(0).child(0).child(2).expression)
 // tree.root(1).child(0).child.foreach(x => print(x.expression + ", "))
 // println(tree.root(0).child(0).child(0).equals(tree.root(1).child(0).child(0)))

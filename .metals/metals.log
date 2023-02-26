@@ -8461,3 +8461,525 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.02.14 19:31:09 INFO  time: indexed workspace in 2.07s
 Feb 14, 2023 7:31:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.02.14 22:41:22 INFO  shutting down Metals
+2023.02.14 22:41:22 INFO  Shut down connection with build server.
+2023.02.14 22:41:22 INFO  Shut down connection with build server.
+2023.02.15 14:58:43 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/lsp.trace.json or /home/pcdm/.cache/metals/lsp.trace.json
+2023.02.15 14:58:43 INFO  logging to file /home/pcdm/hann/test/.metals/metals.log
+2023.02.15 14:58:43 INFO  Started: Metals version 0.11.10 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.15 14:58:44 INFO  time: initialize in 1s
+2023.02.15 14:58:44 INFO  Attempting to connect to the build server...
+2023.02.15 14:58:44 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.15 14:58:45 INFO  skipping build import with status 'Installed'
+2023.02.15 14:58:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.15 14:58:45 INFO  Attempting to connect to the build server...
+2023.02.15 14:58:45 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.15 14:58:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.15 14:58:45 INFO  time: Connected to build server in 0.48s
+2023.02.15 14:58:45 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.15 14:58:47 INFO  time: indexed workspace in 2.01s
+2023.02.15 22:00:07 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/lsp.trace.json or /home/pcdm/.cache/metals/lsp.trace.json
+2023.02.15 22:00:07 INFO  logging to file /home/pcdm/hann/test/.metals/metals.log
+2023.02.15 22:00:07 INFO  Started: Metals version 0.11.10 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.15 22:00:08 INFO  time: initialize in 0.69s
+2023.02.15 22:00:08 INFO  Attempting to connect to the build server...
+2023.02.15 22:00:08 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.15 22:00:08 INFO  skipping build import with status 'Installed'
+2023.02.15 22:00:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.15 22:00:09 INFO  Attempting to connect to the build server...
+2023.02.15 22:00:09 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.15 22:00:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.15 22:00:09 INFO  time: Connected to build server in 0.38s
+2023.02.15 22:00:09 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.15 22:00:10 INFO  shutting down Metals
+2023.02.15 22:00:10 INFO  Shut down connection with build server.
+2023.02.15 22:00:10 INFO  Shut down connection with build server.
+2023.02.15 22:05:02 INFO  shutting down Metals
+2023.02.15 22:05:02 INFO  Shut down connection with build server.
+2023.02.15 22:05:02 INFO  Shut down connection with build server.
+2023.02.21 20:19:31 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/lsp.trace.json or /home/pcdm/.cache/metals/lsp.trace.json
+2023.02.21 20:19:32 INFO  logging to file /home/pcdm/hann/test/.metals/metals.log
+2023.02.21 20:19:32 INFO  Started: Metals version 0.11.10 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.21 20:19:33 INFO  time: initialize in 0.95s
+2023.02.21 20:19:33 INFO  Attempting to connect to the build server...
+2023.02.21 20:19:33 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.21 20:19:33 INFO  skipping build import with status 'Installed'
+2023.02.21 20:19:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.21 20:19:33 INFO  Attempting to connect to the build server...
+2023.02.21 20:19:33 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.21 20:19:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.21 20:19:34 INFO  time: Connected to build server in 0.51s
+2023.02.21 20:19:33 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.21 20:19:36 INFO  time: indexed workspace in 2.1s
+2023.02.21 20:51:57 INFO  compiling test (1 scala source)
+2023.02.21 20:51:57 INFO  time: compiled test in 0.74s
+2023.02.21 21:29:18 INFO  shutting down Metals
+2023.02.21 21:29:18 INFO  Shut down connection with build server.
+2023.02.21 21:29:18 INFO  Shut down connection with build server.
+2023.02.21 23:26:26 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/lsp.trace.json or /home/pcdm/.cache/metals/lsp.trace.json
+2023.02.21 23:26:27 INFO  logging to file /home/pcdm/hann/test/.metals/metals.log
+2023.02.21 23:26:27 INFO  Started: Metals version 0.11.10 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.21 23:26:28 INFO  time: initialize in 1.03s
+2023.02.21 23:26:28 INFO  Attempting to connect to the build server...
+2023.02.21 23:26:28 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.21 23:26:28 INFO  skipping build import with status 'Installed'
+2023.02.21 23:26:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.21 23:26:28 INFO  Attempting to connect to the build server...
+2023.02.21 23:26:28 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.21 23:26:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.21 23:26:28 INFO  time: Connected to build server in 0.26s
+2023.02.21 23:26:28 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.21 23:26:30 INFO  time: indexed workspace in 2.11s
+Feb 21, 2023 11:27:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 21, 2023 11:28:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.02.21 23:32:40 INFO  shutting down Metals
+2023.02.21 23:32:40 INFO  Shut down connection with build server.
+2023.02.21 23:32:40 INFO  Shut down connection with build server.
+2023.02.22 22:37:49 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/lsp.trace.json or /home/pcdm/.cache/metals/lsp.trace.json
+2023.02.22 22:37:49 INFO  logging to file /home/pcdm/hann/test/.metals/metals.log
+2023.02.22 22:37:49 INFO  Started: Metals version 0.11.10 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.22 22:37:50 INFO  time: initialize in 0.96s
+2023.02.22 22:37:51 INFO  Attempting to connect to the build server...
+2023.02.22 22:37:51 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.22 22:37:50 INFO  skipping build import with status 'Installed'
+2023.02.22 22:37:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.22 22:37:51 INFO  Attempting to connect to the build server...
+2023.02.22 22:37:51 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.22 22:37:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.22 22:37:51 INFO  time: Connected to build server in 0.38s
+2023.02.22 22:37:51 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.22 22:37:51 INFO  time: Imported build in 0.15s
+2023.02.22 22:37:55 INFO  time: indexed workspace in 3.35s
+2023.02.23 15:37:06 INFO  shutting down Metals
+2023.02.23 15:37:06 INFO  Shut down connection with build server.
+2023.02.23 15:37:06 INFO  Shut down connection with build server.
+2023.02.23 20:27:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/lsp.trace.json or /home/pcdm/.cache/metals/lsp.trace.json
+2023.02.23 20:27:25 INFO  logging to file /home/pcdm/hann/test/.metals/metals.log
+2023.02.23 20:27:25 INFO  Started: Metals version 0.11.10 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.23 20:27:26 INFO  time: initialize in 1.03s
+2023.02.23 20:27:26 INFO  Attempting to connect to the build server...
+2023.02.23 20:27:26 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.23 20:27:27 INFO  skipping build import with status 'Installed'
+2023.02.23 20:27:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.23 20:27:27 INFO  Attempting to connect to the build server...
+2023.02.23 20:27:27 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.23 20:27:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.23 20:27:27 INFO  time: Connected to build server in 0.49s
+2023.02.23 20:27:27 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.23 20:27:29 INFO  time: indexed workspace in 1.9s
+2023.02.23 20:27:43 INFO  time: code lens generation in 1.64s
+Feb 23, 2023 8:27:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+2023.02.23 20:27:45 INFO  skipping build import with status 'Installed'
+Feb 23, 2023 8:27:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 66
+2023.02.23 20:27:57 INFO  compiling test (1 scala source)
+2023.02.23 20:27:57 INFO  time: compiled test in 0.84s
+2023.02.23 20:28:01 INFO  shutting down Metals
+2023.02.23 20:28:01 INFO  Shut down connection with build server.
+2023.02.23 20:28:01 INFO  Shut down connection with build server.
+2023.02.25 19:18:20 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/lsp.trace.json or /home/pcdm/.cache/metals/lsp.trace.json
+2023.02.25 19:18:21 INFO  logging to file /home/pcdm/hann/test/.metals/metals.log
+2023.02.25 19:18:21 INFO  Started: Metals version 0.11.10 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.25 19:18:22 INFO  time: initialize in 0.99s
+2023.02.25 19:18:22 INFO  Attempting to connect to the build server...
+2023.02.25 19:18:22 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.25 19:18:22 INFO  skipping build import with status 'Installed'
+2023.02.25 19:18:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.25 19:18:22 INFO  Attempting to connect to the build server...
+2023.02.25 19:18:22 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.25 19:18:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.25 19:18:22 INFO  time: Connected to build server in 0.38s
+2023.02.25 19:18:22 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.25 19:18:26 INFO  time: indexed workspace in 3.17s
+Feb 25, 2023 7:21:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 320
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in scala.collection.mutable.ListBuffer[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 463, 463, 483)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in scala.collection.mutable.ListBuffer[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 463, 463, 476)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in scala.collection.mutable.ListBuffer[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 463, 463, 477)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in scala.collection.mutable.ListBuffer[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 463, 463, 478)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in scala.collection.mutable.ListBuffer[this.Node]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 463, 463, 479)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in scala.collection.mutable.ListBuffer[this.Node]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 463, 463, 479)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in scala.collection.mutable.ListBuffer[this.Node]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 463, 463, 479)
+Feb 25, 2023 7:23:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 614
+Feb 25, 2023 7:23:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 698
+Feb 25, 2023 7:24:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 752
+Feb 25, 2023 7:27:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 872
+Feb 25, 2023 7:31:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1265
+Feb 25, 2023 7:34:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1434
+Feb 25, 2023 7:34:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1463
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 718, 718, 732)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 718, 718, 725)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 718, 718, 726)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 718, 718, 727)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 718, 718, 726)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 718, 718, 726)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 718, 718, 727)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[Char]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 718, 718, 728)
+Feb 25, 2023 7:35:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1614
+Feb 25, 2023 7:35:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1612
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[Char]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 718, 718, 728)
+Feb 25, 2023 7:41:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1917
+Feb 25, 2023 7:42:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2116
+Feb 25, 2023 7:42:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2178
+Feb 25, 2023 7:43:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2238
+Feb 25, 2023 7:49:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2681
+Feb 25, 2023 7:53:10 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+Feb 25, 2023 7:55:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2961
+Feb 25, 2023 7:55:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2992
+Feb 25, 2023 7:59:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 25, 2023 8:01:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3476
+Feb 25, 2023 8:01:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3581
+Feb 25, 2023 8:04:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3822
+Feb 25, 2023 8:04:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3823
+Feb 25, 2023 8:10:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4277
+Feb 25, 2023 8:10:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4291
+2023.02.25 20:12:27 INFO  compiling test (1 scala source)
+2023.02.25 20:12:27 INFO  time: compiled test in 0.38s
+2023.02.25 20:12:55 INFO  compiling test (1 scala source)
+2023.02.25 20:12:55 INFO  time: compiled test in 0.59s
+2023.02.25 20:13:58 INFO  compiling test (1 scala source)
+2023.02.25 20:13:58 INFO  time: compiled test in 0.61s
+2023.02.25 20:15:43 INFO  compiling test (1 scala source)
+2023.02.25 20:15:43 INFO  time: compiled test in 0.54s
+2023.02.25 20:15:47 INFO  compiling test (1 scala source)
+2023.02.25 20:15:47 INFO  time: compiled test in 0.54s
+2023.02.25 20:17:24 INFO  compiling test (1 scala source)
+2023.02.25 20:17:24 INFO  time: compiled test in 0.55s
+2023.02.25 20:18:23 INFO  compiling test (1 scala source)
+2023.02.25 20:18:23 INFO  time: compiled test in 0.54s
+2023.02.25 20:20:12 INFO  compiling test (1 scala source)
+2023.02.25 20:20:12 INFO  time: compiled test in 59ms
+2023.02.25 20:20:26 INFO  compiling test (1 scala source)
+2023.02.25 20:20:26 INFO  time: compiled test in 54ms
+2023.02.25 20:20:32 INFO  compiling test (1 scala source)
+2023.02.25 20:20:32 INFO  time: compiled test in 75ms
+2023.02.25 20:20:32 INFO  compiling test (1 scala source)
+2023.02.25 20:20:32 INFO  time: compiled test in 15ms
+2023.02.25 20:20:33 INFO  compiling test (1 scala source)
+2023.02.25 20:20:33 INFO  time: compiled test in 15ms
+2023.02.25 20:20:44 INFO  compiling test (1 scala source)
+2023.02.25 20:20:44 INFO  time: compiled test in 0.55s
+Feb 25, 2023 8:21:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5031
+Feb 25, 2023 8:21:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5091
+2023.02.25 20:22:06 INFO  compiling test (1 scala source)
+2023.02.25 20:22:06 INFO  time: compiled test in 0.52s
+2023.02.25 20:23:01 INFO  compiling test (1 scala source)
+2023.02.25 20:23:01 INFO  time: compiled test in 0.1s
+2023.02.25 20:23:23 INFO  compiling test (1 scala source)
+2023.02.25 20:23:23 INFO  time: compiled test in 91ms
+Feb 25, 2023 8:26:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5207
+Feb 25, 2023 8:34:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6347
+Feb 25, 2023 8:44:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7292
+Feb 25, 2023 8:48:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7410
+Feb 25, 2023 8:50:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7709
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in scala.collection.mutable.HashMap[<error>,<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2192, 2192, 2212)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in scala.collection.mutable.HashMap[<error>,<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2192, 2192, 2213)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in scala.collection.mutable.HashMap[<error>,<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2192, 2192, 2206)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in scala.collection.mutable.HashMap[<error>,<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2192, 2192, 2208)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in scala.collection.mutable.HashMap[<error>,this.Node]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2192, 2192, 2209)
+Feb 25, 2023 8:56:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8336
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2254, 2254, 2267)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2254, 2254, 2260)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2254, 2254, 2261)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2254, 2254, 2262)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2254, 2254, 2264)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2254, 2254, 2265)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2254, 2254, 2265)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2254, 2254, 2265)
+Feb 25, 2023 8:59:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 25, 2023 9:00:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8760
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2514, 2514, 2527)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2514, 2514, 2520)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2514, 2514, 2521)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2514, 2514, 2524)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2514, 2514, 2525)
+Feb 25, 2023 9:03:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9070
+Feb 25, 2023 9:05:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9430
+Feb 25, 2023 9:05:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9525
+Feb 25, 2023 9:07:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9729
+Feb 25, 2023 9:09:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9883
+Feb 25, 2023 9:12:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10165
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2056, 2056, 2069)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2056, 2056, 2062)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2056, 2056, 2063)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2056, 2056, 2062)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2056, 2056, 2062)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2056, 2056, 2063)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2056, 2056, 2064)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2056, 2056, 2065)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2056, 2056, 2066)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2056, 2056, 2066)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2056, 2056, 2067)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in Set[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 2056, 2056, 2067)
+Feb 25, 2023 9:14:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10401
+Feb 25, 2023 9:15:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10493
+Feb 25, 2023 9:53:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10814
+Feb 25, 2023 9:53:35 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 543, 543, 557)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 543, 543, 550)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 543, 543, 551)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 543, 543, 551)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 543, 543, 552)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 543, 543, 551)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 543, 543, 913)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 543, 543, 550)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 543, 543, 551)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 543, 543, 550)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 543, 543, 550)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 543, 543, 551)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 543, 543, 552)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 548, 548, 561)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 548, 548, 554)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 548, 548, 555)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in Set[Any]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 548, 548, 556)
+Feb 25, 2023 10:23:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12405
+Feb 25, 2023 10:28:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12544
+Feb 25, 2023 10:31:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12651
+2023.02.25 22:33:08 INFO  shutting down Metals
+2023.02.25 22:33:08 INFO  Shut down connection with build server.
+2023.02.25 22:33:08 INFO  Shut down connection with build server.
+2023.02.26 20:10:16 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/lsp.trace.json or /home/pcdm/.cache/metals/lsp.trace.json
+2023.02.26 20:10:16 INFO  logging to file /home/pcdm/hann/test/.metals/metals.log
+2023.02.26 20:10:16 INFO  Started: Metals version 0.11.10 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.26 20:10:17 INFO  time: initialize in 1.09s
+2023.02.26 20:10:17 INFO  Attempting to connect to the build server...
+2023.02.26 20:10:17 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.26 20:10:18 INFO  skipping build import with status 'Installed'
+2023.02.26 20:10:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.26 20:10:18 INFO  Attempting to connect to the build server...
+2023.02.26 20:10:18 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.02.26 20:10:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.02.26 20:10:18 INFO  time: Connected to build server in 0.46s
+2023.02.26 20:10:18 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.26 20:10:22 INFO  time: indexed workspace in 3.39s
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 274, 274, 736)
+Feb 26, 2023 8:11:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 71
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 274, 274, 288)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in Set[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 278, 278, 289)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/SetTest.sc in Set[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/SetTest.sc, 278, 278, 289)
+Feb 26, 2023 8:17:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 443
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 487, 487, 501)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 487, 487, 494)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 487, 487, 495)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 487, 487, 496)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 487, 487, 498)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 487, 487, 499)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 487, 487, 499)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc in List[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest.sc, 487, 487, 499)
+Feb 26, 2023 8:25:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 862
+Feb 26, 2023 8:34:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1720
+Feb 26, 2023 8:35:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2020
+Feb 26, 2023 8:37:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2247
+Feb 26, 2023 8:46:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2645
+Feb 26, 2023 8:48:32 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Feb 26, 2023 8:51:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3063
+Feb 26, 2023 8:53:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3158
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 3175, 3175, 3189)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 3175, 3175, 3182)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 3175, 3175, 3183)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 3175, 3175, 3184)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 3175, 3175, 3186)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 3175, 3175, 3188)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in List[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 3175, 3175, 3187)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in List[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 3175, 3175, 3187)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in List[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 3175, 3175, 3187)
+Feb 26, 2023 9:04:04 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+Feb 26, 2023 9:04:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4060
+Feb 26, 2023 9:05:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4165
+Feb 26, 2023 9:06:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4220
+Feb 26, 2023 9:18:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5475
+Feb 26, 2023 9:19:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5548
+Feb 26, 2023 9:23:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5836
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in scala.collection.mutable.Set[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 3130, 3155, 3168)
+Feb 26, 2023 9:29:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 26, 2023 9:29:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 26, 2023 9:29:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 26, 2023 9:29:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "copilot:GitHub%20Copilot?%5B%22file%3A%2F%2F%2Fhome%2Fpcdm%2Fhann%2Ftest%2Fsrc%2Fmain%2Fscala%2FAtreeTest2.sc%22%2C%7B%22prependToCompletion%22%3A%22%22%2C%22appendToCompletion%22%3A%22%22%2C%22indentation%22%3Anull%2C%22completionType%22%3A2%2C%22insertPosition%22%3A%7B%22line%22%3A172%2C%22character%22%3A4%7D%7D%2C%22%22%5D#0"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "copilot" not installed
+	at java.nio.file.Paths.get(Paths.java:147)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:119)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1200)
+	... 15 more
+
+Feb 26, 2023 9:31:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6408
+Feb 26, 2023 9:31:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6498
+Feb 26, 2023 9:33:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6626
+Feb 26, 2023 9:35:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6697
+Feb 26, 2023 9:35:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6701
+Feb 26, 2023 9:35:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6702
+Feb 26, 2023 9:40:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7532
+Feb 26, 2023 9:40:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7548
+Feb 26, 2023 9:41:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7571
+Feb 26, 2023 9:44:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7788
+Feb 26, 2023 9:48:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8192
+Feb 26, 2023 9:48:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8257
+Feb 26, 2023 9:50:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8424
+Feb 26, 2023 9:55:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8734
+Feb 26, 2023 9:56:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8770
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in List[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 3696, 3696, 3708)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in List[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 3658, 3658, 3670)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc in List[String]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest2.sc, 282, 282, 294)
+Feb 26, 2023 9:58:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
