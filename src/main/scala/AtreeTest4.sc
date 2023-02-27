@@ -33,99 +33,73 @@ class ATree() {
 
     def insert(_expression: String): Node = {
         val id = generateID(_expression)
+        println(_expression + id)
         if(hen.getOrElse(id,0) != 0) {
             hen(id).useCount += 1
-            //hen(id)
+            hen(id)
         } else {
-            if (_expression.contains('∨')) {
-                if (_expression.length() > 1) {
-                    val new_node = new inner_Node(_expression)
-                    hen += (id -> new_node)
-                    root += hen(id)
-                    val childPredicate = _expression.replace('^',' ').replace('∨',' ').split(' ').toList
-                    val childExprs = _expression.split('∨')
-                    childExprs.foreach(x => hen(id).childExprs += List(x.toString()))
-                if (_expression.length() > 1) {
+            var childExprs = reorganize(_expression)
+            var flag = true
+            if (childExprs.isEmpty) {
+                childExprs = List(_expression)
+                flag = false
+            }
+            println("!!!!!!!!!!!!!!!!!!!!!!!"+childExprs + "!! "+ _expression)
+            println("flag: " + flag)
+            var childNodes: ListBuffer[Node] =  ListBuffer[Node]()
+            //var childExprs = List(_expression)
+            if(_expression.length() >1){
+                if (childExprs.size > 1 ) {
                     for(expr <- childExprs) {
-                    val childNode = insert(expr)
-                    hen(id).childs += childNode
-                    childNode.parent += hen(id)
+                        var childNode = insert(expr)
+                        childNodes += childNode
                     }
-                }
-            
                 } else {
-                    val new_node = new leaf_Node(_expression)
-                    hen += (id -> new_node)
-                }
-            } else {
-                if (_expression.length() > 1) {
-                    val new_node = new inner_Node(_expression)
-                    hen += (id -> new_node)
-                    root += hen(id)
-                    val childPredicates = _expression.replace('^',' ').split(' ').toList
-                    
-                    val childExprs = List(_expression)
-                    println("----&&&& :" + childExprs)
-                    hen(id).childExprs += childExprs
-                if (_expression.length() > 1) {
+            for (childExpr <- childExprs) {
                 
-                    reorganize(_expression)
-                    if(hen(id).childExprs.size > 1) {
-                        for(expr <- hen(id).childExprs) {
-                            val childNode = insert(expr(0))
-                            hen(id).childs += childNode
-                            childNode.parent += hen(id)
-                            }
-                        } else {
-                        for(expr <- hen(id).childExprs) {
-                            if (expr.size == 1) {
-                            for (ss <- expr) {
-                                for (s <- ss) {
-                                    if (s != '^') {
-                                        val childNode = insert(s.toString())
-                                        hen(id).childs += childNode
-                                        childNode.parent += hen(id)
-                                    }
-                                }
-                                //childNode.parent += hen(id)
-                                }
-                            } else {
-                            for (s <- expr) {
-                                val childNode = insert(s)
-                                hen(id).childs += childNode
-                                childNode.parent += hen(id)
-                            }
-                            }
-                            //childNode.parent += hen(id)
-                            }
+                //val childNode = insert(childExpr)
+                //childNodes += childNode
+                for (expr <- childExpr) {
+                    if (expr != '^') {
+                        var childNode = insert(expr.toString())
+                        //insert(expr.toString())
+                        childNodes += childNode
+                        //println(expr)
                     }
-
-
-                    } 
-                    //
-                    val node = createNewNode(expr = _expression)
-                    println("createnew node!!!")
-                    node.useCount = 1
-                    selfAdjust(node)
-                    hen += (id -> node)
-            
-                } else {
-                    val new_node = new leaf_Node(_expression)
-                    hen += (id -> new_node)
+                    //println(expr)
+                }
+                //println(childExpr)
+            }
                 }
             }
+            val node = createNewNode(_expression,childNodes.toList)
+            node.useCount += 1
+            node.childExprs += childExprs
+            
+            if(flag == true) {selfAdjust(node)}
+            hen += (id -> node)
+            node
         }
-       
-        hen(id)
+        
     }
 
-    private def createNewNode(expr: String):Node = {
+    
+    
+    
+    private def createNewNode(expr: String, childNodes:List[Node]):Node = {
         val id = generateID(expr)
         val node = if(!expr.contains('^')) {
             new leaf_Node(expr)
         } else {
             new inner_Node(expr)
+
         }
+        for(childNode <- childNodes) {
+           node.childs += childNode
+           childNode.parent += node
+        }
+        //node.childs += childNodes
+        hen += (id -> node)
         node
     }
 
@@ -142,9 +116,9 @@ class ATree() {
         }
 
 
-    private def reorganize(_expression: String):Unit = {
+    private def reorganize(_expression: String):List[String] = {
         //println("here")
-        var u  = hen(generateID(_expression)).childExprs.map(_.flatMap(_.split('^')).toSet).toSet
+        var u  = ListBuffer(List(_expression)).map(_.flatMap(_.split('^')).toSet).toSet
         //var c : Set[Set[String]] = Set.empty
         var c: ListBuffer[String] = ListBuffer[String]()
         var round = 0
@@ -153,7 +127,7 @@ class ATree() {
             while (u.nonEmpty) {
             
                 val s = selectAn_S_that_maximizes_insect_in_Hen(u, _expression)
-                println("s: " + s)
+                //println("s: " + s)
                 if( s.isEmpty ) {
                 
                     break()
@@ -167,9 +141,12 @@ class ATree() {
             
         }   
             if (round > 1) {
-            hen(generateID(_expression)).childExprs.clear()
-            hen(generateID(_expression)).childExprs.append(c.toList)
+            // hen(generateID(_expression)).childExprs.clear()
+            // hen(generateID(_expression)).childExprs.append(c.toList)
             }
+            val foruni = u.map(x =>x.toList).toList
+            //println("c === =!!!!" + c)
+            c.appendAll(foruni.flatten).toList
         
     }
 
@@ -251,16 +228,18 @@ class ATree() {
 
 
 
-    def selfAdjust(node:Node):Unit = {
-        val childNodes = node.childs
+    def selfAdjust(newNode:Node):Unit = {
+        val childNodes = newNode.childs
         for (childNode <- childNodes) {
             for (parentNode <- childNode.parent) {
-                if (parentNode.expression.contains(node.expression)) {
-                    println("it work :" + parentNode.expression)
-                    parentNode.childs -= childNode
-                    childNode.parent -= parentNode
-                    childNode.parent += node
-                    node.childs += childNode
+                if (parentNode.expression.contains(newNode.expression)) {
+                    // println("current node:" + newNode.expression)
+                    // println("parentNode:" + parentNode.expression)
+                    // println("childNode:" + childNode.expression)
+                    //parentNode.childs -= childNode
+                    // childNode.parent -= parentNode
+                    // childNode.parent += node
+                    // node.childs += childNode
                 }
             }
         }
@@ -273,8 +252,13 @@ class ATree() {
 
 val tree = new ATree()
 tree.insert("A^B^E^F")
+//println("1")
 tree.insert("C^D^Z^X")
+//println("2")
 tree.insert("A^B^C^D")
+tree.insert("A^B^Z^X")
+tree.insert("A^B^Z")
+tree.insert("A^B^Z^Y")
 // tree.insert("A^B^C")
 // tree.insert("C^Z^E^F")
 // println(tree.root(2).expression)
@@ -297,9 +281,28 @@ tree.insert("A^B^C^D")
 println("=================================")
 tree.hen.foreach(x => println(x._2.expression))
 println("=================================")
-// println(tree.root(0).expression)
-// println(tree.root(0).childExprs.size)
-// println(tree.root(0).childExprs)
+println(tree.hen(592).expression)
+println(tree.hen(592).childExprs.size)
+println(tree.hen(592).childs(0).expression)
+println(tree.hen(592).childs(1).expression)
+println(tree.hen(592).childs(0).childs.size)
+println(tree.hen(592).childs(0).childs(0).expression)
+println(tree.hen(592).childs(0).childs(1).expression)
+println(tree.hen(592).childs(0).childs(2).expression)
+println(tree.hen(592).childExprs)
+println("------------------------")
+println(tree.hen(548).expression)
+println(tree.hen(548).childs.size)
+println(tree.hen(548).childs(0).expression)
+println(tree.hen(548).childs(1).expression)
+println(tree.hen(548).childs(0).childs.size)
+
+//println(tree.hen(548).childs(1).expression)
+//println(tree.hen(591).childs(2).expression)
+// println(tree.hen(591).childs(3).expression)
+// println(tree.hen(591).childs(4).expression)
+// println(tree.hen(591).childs(5).expression)
+// println(tree.hen(591).parent.size)
 //println(tree.root(1).childs.size)
 //println(tree.root(0).childs(0).expression)
 // println("---------------")
@@ -307,8 +310,8 @@ println("=================================")
 // println(tree.root(1).childExprs.size)
 // println(tree.root(1).childExprs)
 // println(tree.root(1).childs.size)
-println(tree.root(2).childs(0).childExprs)
-println(tree.root(2).childs(0).childs.size)
+// println(tree.root(2).childs(0).childExprs)
+// println(tree.root(2).childs(0).childs.size)
 //println(tree.root(2).childs(1).expression)
 // println(tree.root(2).childs(2).expression)
 // println(tree.root(2).childs(3).expression)

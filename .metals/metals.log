@@ -9049,3 +9049,82 @@ Feb 27, 2023 7:31:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 16759
 Feb 27, 2023 7:34:03 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
 INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Feb 27, 2023 8:13:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19042
+Feb 27, 2023 8:17:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19336
+Feb 27, 2023 9:38:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19518
+Feb 27, 2023 9:38:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19538
+Feb 27, 2023 9:40:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19640
+Feb 27, 2023 9:42:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19780
+Feb 27, 2023 9:42:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19844
+Feb 27, 2023 9:51:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20288
+Feb 27, 2023 9:55:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20845
+Feb 27, 2023 9:56:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20942
+Feb 27, 2023 9:56:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21010
+Feb 27, 2023 9:58:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21224
+Feb 27, 2023 9:58:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21243
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest4.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest4.sc, 1914, 1914, 1928)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest4.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest4.sc, 1914, 1914, 1921)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest4.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest4.sc, 1914, 1914, 1923)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest4.sc in List[this.Node]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest4.sc, 1914, 1914, 1924)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AtreeTest4.sc in List[this.Node]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AtreeTest4.sc, 1914, 1914, 1924)
+Feb 27, 2023 10:19:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22657
+Feb 27, 2023 10:19:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22682
+Feb 27, 2023 10:21:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22791
+Feb 27, 2023 10:21:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22864
+Feb 27, 2023 10:22:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22937
+Feb 27, 2023 10:22:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22938
+Feb 27, 2023 10:25:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23118
+Feb 27, 2023 10:27:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23283
+Feb 27, 2023 10:27:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23328
+Feb 27, 2023 10:29:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23461
+Feb 27, 2023 10:35:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23742
+Feb 27, 2023 10:42:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24120
+Feb 27, 2023 10:51:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24723
+Feb 27, 2023 10:51:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24730
+Feb 27, 2023 10:57:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25193
+Feb 27, 2023 11:06:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25849
+Feb 27, 2023 11:18:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26369
+Feb 27, 2023 11:20:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26586
+Feb 27, 2023 11:21:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26695
+Feb 27, 2023 11:23:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26986
+Feb 27, 2023 11:25:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27067
+Feb 27, 2023 11:29:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27264
+Feb 27, 2023 11:32:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27373
+Feb 27, 2023 11:45:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28624
