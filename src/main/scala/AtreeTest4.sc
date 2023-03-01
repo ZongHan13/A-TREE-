@@ -219,6 +219,8 @@ class ATree() {
 
     def selfAdjust(newNode:Node):Unit = {
         var childNodes = newNode.childs
+        
+         
         // for (childNode <-  childNodes) {
         //     //val childNodeforsearch = childNode.parent newNode
         //     for (parentNode <- childNode.parent) {
@@ -234,8 +236,23 @@ class ATree() {
         //         }
         //     }
         // }
-        for (i <- 0 until childNodes.size) {
-            for (j <- 0 until childNodes(i).parent.size-1) {
+        // for (i <- 0 until childNodes.size) {
+        //     for (j <- 0 until childNodes(i).parent.size-2) {
+        //         if (parentExpressionContainsNewExpression(childNodes(i).parent(j).expression, newNode.expression)) {
+        //             // println("current node:" + newNode.expression)
+        //             // println("parentNode:" + parentNode.expression)
+        //             // println("childNode:" + childNode.expression)
+        //             childNodes(i).parent(j).childs -= childNodes(i)
+        //             if (!childNodes(i).parent(j).childs.contains(newNode)){ childNodes(i).parent(j).childs += newNode }
+        //             childNodes(i).parent -= childNodes(i).parent(j)
+        //             //childNode.parent += node
+        //             //node.childs += childNode
+        //         }
+        //     }
+        // }
+            for (i <- 0 until childNodes.size) {
+                var j = 0
+            while (j  < childNodes(i).parent.size -1) {
                 if (parentExpressionContainsNewExpression(childNodes(i).parent(j).expression, newNode.expression)) {
                     // println("current node:" + newNode.expression)
                     // println("parentNode:" + parentNode.expression)
@@ -245,9 +262,12 @@ class ATree() {
                     childNodes(i).parent -= childNodes(i).parent(j)
                     //childNode.parent += node
                     //node.childs += childNode
+                    
                 }
+                j +=1
             }
         }
+
     }
 
     def parentExpressionContainsNewExpression(parentExpression: String, newExpression: String): Boolean = {
@@ -277,7 +297,8 @@ tree.insert("A^B^Z^Y")
 tree.insert("A^B^C")
 tree.insert("C^Z^E^F")
 tree.insert("C^Z^E^F^G")
-tree.insert("C^Z^E^F^A^B")
+tree.insert("C^Z^E^F^A^B") //some index problem 
+//tree.insert("C^Z^E^F^G^A^D")
 // println(tree.root(2).expression)
 // println(tree.root(2).childExprs.size)
 // tree.root(2).childExprs.foreach(x => println(x))
@@ -307,23 +328,54 @@ tree.insert("C^Z^E^F^A^B")
 // println(tree.hen(592).childs(0).childs(1).expression)
 // println(tree.hen(592).childs(0).childs(2).expression)
 // println(tree.hen(592).childExprs)
-// println("------------------------")
-println(tree.hen(45018).expression)
-println(tree.hen(45018).childs.size)
-println(tree.hen(45018).childs(0).expression)
-println(tree.hen(45018).childs(1).expression)
+println("------------------------")
+
+println(tree.hen(75011).expression)
+println(tree.hen(75011).childs.size)
+println(tree.hen(75011).childs(0).expression)
+println(tree.hen(75011).childs(1).expression)
+
 // println(tree.hen(45018).childs(2).expression)
 // println(tree.hen(45018).childs(3).expression)
 // println(tree.hen(45018).childs(3).childs.size)
-println(tree.hen(51197).expression)
-println(tree.hen(51197).childs.size)
-println(tree.hen(51197).childs(0).expression)
-println(tree.hen(51197).childs(1).expression)
+println("------------------------")
 
-println(tree.hen(62635).expression)
-println(tree.hen(62635).childs.size)
-println(tree.hen(62635).childs(0).expression)
-println(tree.hen(62635).childs(1).expression)
+println(tree.hen(44202).expression)
+println(tree.hen(44202).childs.size)
+println(tree.hen(44202).childs(0).expression)
+println(tree.hen(44202).childs(1).expression)
+
+println("------------")
+println(tree.hen.size)
+// for ((id, node) <- tree.hen) {
+//     println(id + ":" + node.expression)
+// }
+println("Node A parents :")
+tree.hen(4225).parent.foreach(x => println(x.expression))
+println(" ----- Node A ------")
+println(tree.hen(30742).expression)
+println(tree.hen(30742).childs(0).expression)
+println(tree.hen(30742).childs(1).expression)
+println(tree.hen(30742).childs(2).expression)
+println("-------------")
+// println(tree.hen(30742).childs(1).childs(0).expression)
+// println(tree.hen(30742).childs(1).childs(1).expression)
+println(tree.hen(17417).expression)
+println(tree.hen(17417).parent(0).expression)
+println(tree.hen(17417).childs.size)
+println(tree.hen(17417).childs(0).expression)
+println(tree.hen(17417).childs(1).expression)
+
+// val sorted_Map = tree.hen.toSeq.sortWith(_._1 < _._1)
+// sorted_Map.foreach(x => println(x._1 + ":" + x._2.expression))
+
+// println(tree.hen(51197).childs(2).expression)
+// println(tree.hen(51197).childs(3).expression)
+
+// println(tree.hen(62635).expression)
+// println(tree.hen(62635).childs.size)
+// println(tree.hen(62635).childs(0).expression)
+// println(tree.hen(62635).childs(1).expression)
 // println(tree.hen(51197).childs(2).expression)
 // println(tree.hen(51197).childs(3).expression)
 // println(tree.hen(51197).childs(3).childs.size)
