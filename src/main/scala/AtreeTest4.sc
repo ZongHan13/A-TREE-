@@ -44,8 +44,8 @@ class ATree() {
                 childExprs = List(_expression)
                 flag = false
             }
-            println("!!!!!!!!!!!!!!!!!!!!!!!"+childExprs + "!! "+ _expression)
-            println("flag: " + flag)
+            // println("!!!!!!!!!!!!!!!!!!!!!!!"+childExprs + "!! "+ _expression)
+            // println("flag: " + flag)
             var childNodes: ListBuffer[Node] =  ListBuffer[Node]()
             //var childExprs = List(_expression)
             if(_expression.length() >1){
@@ -252,19 +252,19 @@ class ATree() {
         // }
             for (i <- 0 until childNodes.size) {
                 var j = 0
-            while (j  < childNodes(i).parent.size -1) {
-                if (parentExpressionContainsNewExpression(childNodes(i).parent(j).expression, newNode.expression)) {
+                while (j  < childNodes(i).parent.size -1) { ////// 這裡應該要從parent 先去掉 newNode自己
+                    if (parentExpressionContainsNewExpression(childNodes(i).parent(j).expression, newNode.expression)) {
                     // println("current node:" + newNode.expression)
                     // println("parentNode:" + parentNode.expression)
                     // println("childNode:" + childNode.expression)
-                    childNodes(i).parent(j).childs -= childNodes(i)
-                    if (!childNodes(i).parent(j).childs.contains(newNode)){ childNodes(i).parent(j).childs += newNode }
-                    childNodes(i).parent -= childNodes(i).parent(j)
+                        childNodes(i).parent(j).childs -= childNodes(i)
+                        if (!childNodes(i).parent(j).childs.contains(newNode)){ childNodes(i).parent(j).childs += newNode }
+                        childNodes(i).parent -= childNodes(i).parent(j)
                     //childNode.parent += node
                     //node.childs += childNode
                     
-                }
-                j +=1
+                    }
+                    j +=1
             }
         }
 
@@ -328,7 +328,7 @@ tree.insert("C^Z^E^F^A^B") //some index problem
 // println(tree.hen(592).childs(0).childs(1).expression)
 // println(tree.hen(592).childs(0).childs(2).expression)
 // println(tree.hen(592).childExprs)
-println("------------------------")
+println("----------result--------------")
 
 println(tree.hen(75011).expression)
 println(tree.hen(75011).childs.size)
@@ -365,6 +365,14 @@ println(tree.hen(17417).parent(0).expression)
 println(tree.hen(17417).childs.size)
 println(tree.hen(17417).childs(0).expression)
 println(tree.hen(17417).childs(1).expression)
+
+
+
+println(tree.hen(75011).expression)
+//println(tree.hen(75011).parent(0).expression)
+println(tree.hen(75011).childs.size)
+println(tree.hen(75011).childs(0).expression)
+println(tree.hen(75011).childs(1).expression)
 
 // val sorted_Map = tree.hen.toSeq.sortWith(_._1 < _._1)
 // sorted_Map.foreach(x => println(x._1 + ":" + x._2.expression))
