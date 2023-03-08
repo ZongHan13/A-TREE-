@@ -1,0 +1,3 @@
+Pattern : VALUE | Type : PERIOD | QueryID : John-4-1 | Value : <5 | Period : 1 | From : UST | AND_OR : AND
+Pattern : VALUE | Type : PERIOD | QueryID : John-4-2 | Value : >7 | Period : 1 | From : UST | AND_OR : AND
+Pattern : VALUE | Type : PERIOD |QueryID : John-4-3 | Value : <14 | Period : 1 | From : UST | AND_OR : NONE

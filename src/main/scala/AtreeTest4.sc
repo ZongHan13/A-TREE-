@@ -253,6 +253,7 @@ class ATree() {
             for (i <- 0 until childNodes.size) {
                 var j = 0
                 while (j  < childNodes(i).parent.size -1) { ////// 這裡應該要從parent 先去掉 newNode自己
+                    // 但-1不就是去掉自己嗎 因為一定會是在最後一個
                     if (parentExpressionContainsNewExpression(childNodes(i).parent(j).expression, newNode.expression)) {
                     // println("current node:" + newNode.expression)
                     // println("parentNode:" + parentNode.expression)
