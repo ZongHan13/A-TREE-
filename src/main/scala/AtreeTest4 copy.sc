@@ -14,16 +14,26 @@ class inner_Node(_expression: String) extends Node {
   var expression: String = _expression
   var parent: ListBuffer[Node] = ListBuffer[Node]()
   var childs: ListBuffer[Node] = ListBuffer[Node]()
-  var useCount = 0
+  var useCount: Int = 0
   var childExprs: ListBuffer[List[String]]  = ListBuffer[List[String]] ()
+  var result: Boolean = _
+  
+//   private def evaluating():Boolean = {
+//     val regex = "(?<!\\^)(?=\\^)|(?<=\\^)(?!\\^)|(?<!∨)(?=∨)|(?<=∨)(?!∨)"
+//     val resultList = expression.split(regex).toList
+    
+
+//   }
+
 }
 
 class leaf_Node(_expression: String) extends Node {
   var expression: String = _expression
   var parent: ListBuffer[Node] = ListBuffer[Node]()
   var childs: ListBuffer[Node] = ListBuffer[Node]()
-  var useCount = 0
+  var useCount: Int = 0
   var childExprs: ListBuffer[List[String]]  = ListBuffer[List[String]] ()
+  var result: Boolean = false
 }
 
 class ATree() {
@@ -300,7 +310,7 @@ tree.insert("BTC.value>1^ETH.value>2^XRP.value>3")
 tree.insert("BTC.value>1^ETH.value>2^XRP.value>3^LTC.value>4")
 //println("2")
 // tree.insert("BTC.value>3^ETH.value>2^XRP.value>3^LTC.value>4^BCH.value>5")
-// tree.insert("BTC.value>1^ETH.value>2^XRP.value>3^LTC.value>4^BCH.value>5^EOS.value>6")
+tree.insert("BTC.value>1^ETH.value>2^XRP.value>3^LTC.value>4^BCH.value>5^EOS.value>6")
 
 println("---------------- result ----------------")
 println(tree.hen(367193).expression)
@@ -309,4 +319,4 @@ println(tree.hen(367193).childs.size)
 println(tree.hen(367193).childs(0).expression)
 println(tree.hen(367193).childs(1).expression)
 
-println(tree.hen(273485).parent(0).expression)
+println(tree.hen(273485).parent(0).parent(0).expression)

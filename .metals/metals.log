@@ -9266,3 +9266,142 @@ Mar 08, 2023 9:22:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 3275
 Mar 08, 2023 9:22:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Mar 08, 2023 9:40:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3546
+Mar 08, 2023 9:46:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 08, 2023 10:16:24 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2023.03.08 22:17:25 WARN  Using indexes to guess the definition of value
+2023.03.08 22:25:25 WARN  Using indexes to guess the definition of exprList
+Mar 08, 2023 10:26:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6715
+2023.03.08 22:28:22 WARN  Using indexes to guess the definition of values
+2023.03.08 22:28:27 WARN  Using indexes to guess the definition of resutlttt
+Mar 08, 2023 10:29:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7417
+2023.03.10 01:55:14 INFO  Shutting down server
+2023.03.10 01:55:14 INFO  shutting down Metals
+2023.03.10 01:55:14 INFO  Shut down connection with build server.
+2023.03.10 01:55:14 INFO  Shut down connection with build server.
+2023.03.10 01:55:14 INFO  Exiting server
+2023.03.12 14:20:55 INFO  Started: Metals version 0.11.11 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.76.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.12 14:20:56 INFO  time: initialize in 0.75s
+2023.03.12 14:20:56 INFO  Attempting to connect to the build server...
+2023.03.12 14:20:56 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.12 14:20:56 INFO  skipping build import with status 'Installed'
+2023.03.12 14:20:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.12 14:20:56 INFO  Attempting to connect to the build server...
+2023.03.12 14:20:56 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.12 14:20:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.12 14:20:56 INFO  time: Connected to build server in 0.37s
+2023.03.12 14:20:56 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.12 14:21:00 INFO  time: indexed workspace in 3.61s
+Mar 12, 2023 2:22:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 12, 2023 2:26:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 12, 2023 2:35:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 12, 2023 2:35:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 12, 2023 2:35:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 12, 2023 2:35:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 12, 2023 2:35:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 12, 2023 2:36:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 12, 2023 2:36:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 12, 2023 2:36:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 12, 2023 2:36:10 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 12, 2023 2:37:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.12 14:37:45 INFO  Shutting down server
+2023.03.12 14:37:45 INFO  shutting down Metals
+2023.03.12 14:37:45 INFO  Shut down connection with build server.
+2023.03.12 14:37:45 INFO  Shut down connection with build server.
+2023.03.12 14:37:45 INFO  Exiting server
+2023.03.13 20:02:20 INFO  Started: Metals version 0.11.11 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.13 20:02:21 INFO  time: initialize in 0.82s
+2023.03.13 20:02:21 INFO  Attempting to connect to the build server...
+2023.03.13 20:02:21 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.13 20:02:22 INFO  skipping build import with status 'Installed'
+2023.03.13 20:02:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.13 20:02:22 INFO  Attempting to connect to the build server...
+2023.03.13 20:02:22 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.13 20:02:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.13 20:02:22 INFO  time: Connected to build server in 0.39s
+2023.03.13 20:02:22 INFO  Connected to Build server: Bloop v1.5.6
+Mar 13, 2023 8:02:24 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.13 20:02:25 INFO  time: indexed workspace in 3.38s
+Mar 13, 2023 8:04:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 218
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc in scala.collection.mutable.ListBuffer[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc, 109, 109, 129)
+Mar 13, 2023 8:07:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 982
+Mar 13, 2023 8:07:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Mar 13, 2023 8:12:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1383
+Mar 13, 2023 8:13:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1547
+Mar 13, 2023 8:19:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1786
+Mar 13, 2023 8:20:46 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Mar 13, 2023 8:20:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:420)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Mar 13, 2023 8:22:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 13, 2023 8:25:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2483
+Mar 13, 2023 8:26:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2768
+Mar 13, 2023 8:29:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3571
+Mar 13, 2023 8:31:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4013
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc in scala.collection.mutable.ListBuffer[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc, 308, 308, 328)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc in scala.collection.mutable.ListBuffer[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc, 308, 308, 322)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc in scala.collection.mutable.ListBuffer[this.leaf_Node]RangePosition(file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc, 308, 308, 329)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc in scala.collection.mutable.ListBuffer[this.leaf_Node]RangePosition(file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc, 308, 308, 329)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc in scala.collection.mutable.ListBuffer[this.leaf_Node]RangePosition(file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc, 308, 308, 329)
+2023.03.13 20:48:37 WARN  Using indexes to guess the definition of leaf_Node
+Mar 13, 2023 8:55:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6564
+Mar 13, 2023 9:26:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7129
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc, 2424, 2424, 2438)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc in List[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc, 2424, 2424, 2431)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc in List[Int]RangePosition(file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc, 2424, 2424, 2433)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc in List[Int]RangePosition(file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc, 2424, 2424, 2433)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc in List[Int]RangePosition(file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc, 2424, 2424, 2433)
+Mar 13, 2023 9:30:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8001
