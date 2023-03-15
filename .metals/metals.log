@@ -9405,3 +9405,283 @@ something's wrong: no file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc in 
 something's wrong: no file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc in List[Int]RangePosition(file:///home/pcdm/hann/test/src/main/scala/NodeTest.sc, 2424, 2424, 2433)
 Mar 13, 2023 9:30:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 8001
+2023.03.13 21:46:07 INFO  Shutting down server
+2023.03.13 21:46:07 INFO  shutting down Metals
+2023.03.13 21:46:07 INFO  Shut down connection with build server.
+2023.03.13 21:46:07 INFO  Shut down connection with build server.
+2023.03.13 21:46:07 INFO  Exiting server
+2023.03.15 15:28:26 INFO  Started: Metals version 0.11.11 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.15 15:28:27 INFO  time: initialize in 0.8s
+2023.03.15 15:28:27 INFO  Attempting to connect to the build server...
+2023.03.15 15:28:27 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:28:27 INFO  skipping build import with status 'Installed'
+2023.03.15 15:28:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:28:28 INFO  Attempting to connect to the build server...
+2023.03.15 15:28:28 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:28:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:28:28 INFO  time: Connected to build server in 0.79s
+2023.03.15 15:28:28 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.15 15:28:28 INFO  time: Imported build in 0.12s
+2023.03.15 15:28:32 INFO  time: indexed workspace in 3.45s
+Mar 15, 2023 3:30:24 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:30:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:32:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:32:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:32:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:33:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:33:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:33:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.15 15:34:01 INFO  Shutting down server
+2023.03.15 15:34:01 INFO  shutting down Metals
+2023.03.15 15:34:01 INFO  Shut down connection with build server.
+2023.03.15 15:34:01 INFO  Shut down connection with build server.
+2023.03.15 15:34:01 INFO  Exiting server
+2023.03.15 15:34:09 INFO  Started: Metals version 0.11.11 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.15 15:34:10 INFO  time: initialize in 0.76s
+2023.03.15 15:34:10 INFO  Attempting to connect to the build server...
+2023.03.15 15:34:10 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:34:10 INFO  skipping build import with status 'Installed'
+2023.03.15 15:34:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:34:10 INFO  Attempting to connect to the build server...
+2023.03.15 15:34:10 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:34:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:34:10 INFO  time: Connected to build server in 0.45s
+2023.03.15 15:34:10 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.15 15:34:13 INFO  time: indexed workspace in 2.07s
+Mar 15, 2023 3:34:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.15 15:34:16 INFO  Shutting down server
+2023.03.15 15:34:16 INFO  shutting down Metals
+2023.03.15 15:34:16 INFO  Shut down connection with build server.
+2023.03.15 15:34:16 INFO  Shut down connection with build server.
+2023.03.15 15:34:16 INFO  Exiting server
+2023.03.15 15:34:24 INFO  Started: Metals version 0.11.11 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.15 15:34:24 INFO  time: initialize in 0.72s
+2023.03.15 15:34:24 INFO  Attempting to connect to the build server...
+2023.03.15 15:34:24 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:34:25 INFO  skipping build import with status 'Installed'
+2023.03.15 15:34:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:34:25 INFO  Attempting to connect to the build server...
+2023.03.15 15:34:25 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:34:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:34:25 INFO  time: Connected to build server in 0.42s
+2023.03.15 15:34:25 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.15 15:34:28 INFO  time: indexed workspace in 2.19s
+Mar 15, 2023 3:34:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:34:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.15 15:34:59 INFO  Shutting down server
+2023.03.15 15:34:59 INFO  shutting down Metals
+2023.03.15 15:34:59 INFO  Shut down connection with build server.
+2023.03.15 15:34:59 INFO  Shut down connection with build server.
+2023.03.15 15:34:59 INFO  Exiting server
+2023.03.15 15:35:07 INFO  Started: Metals version 0.11.11 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.15 15:35:08 INFO  time: initialize in 0.83s
+2023.03.15 15:35:08 INFO  Attempting to connect to the build server...
+2023.03.15 15:35:08 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:35:08 INFO  skipping build import with status 'Installed'
+2023.03.15 15:35:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:35:08 INFO  Attempting to connect to the build server...
+2023.03.15 15:35:08 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:35:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:35:08 INFO  time: Connected to build server in 0.43s
+2023.03.15 15:35:08 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.15 15:35:11 INFO  time: indexed workspace in 2.05s
+Mar 15, 2023 3:35:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:35:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:38:10 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.15 15:38:12 INFO  Shutting down server
+2023.03.15 15:38:12 INFO  shutting down Metals
+2023.03.15 15:38:12 INFO  Shut down connection with build server.
+2023.03.15 15:38:12 INFO  Shut down connection with build server.
+2023.03.15 15:38:12 INFO  Exiting server
+2023.03.15 15:38:20 INFO  Started: Metals version 0.11.11 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.15 15:38:21 INFO  time: initialize in 0.65s
+2023.03.15 15:38:21 INFO  Attempting to connect to the build server...
+2023.03.15 15:38:21 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:38:22 INFO  skipping build import with status 'Installed'
+2023.03.15 15:38:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:38:22 INFO  Attempting to connect to the build server...
+2023.03.15 15:38:22 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:38:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:38:22 INFO  time: Connected to build server in 0.38s
+2023.03.15 15:38:22 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.15 15:38:24 INFO  time: indexed workspace in 2.15s
+Mar 15, 2023 3:41:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.15 15:41:32 INFO  Shutting down server
+2023.03.15 15:41:32 INFO  shutting down Metals
+2023.03.15 15:41:32 INFO  Shut down connection with build server.
+2023.03.15 15:41:32 INFO  Shut down connection with build server.
+2023.03.15 15:41:32 INFO  Exiting server
+2023.03.15 15:41:41 INFO  Started: Metals version 0.11.11 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.15 15:41:42 INFO  time: initialize in 0.83s
+2023.03.15 15:41:42 INFO  Attempting to connect to the build server...
+2023.03.15 15:41:42 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:41:42 INFO  skipping build import with status 'Installed'
+2023.03.15 15:41:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:41:42 INFO  Attempting to connect to the build server...
+2023.03.15 15:41:42 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:41:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:41:42 INFO  time: Connected to build server in 0.41s
+2023.03.15 15:41:42 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.15 15:41:45 INFO  time: indexed workspace in 2.12s
+Mar 15, 2023 3:42:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:42:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.15 15:42:40 INFO  Shutting down server
+2023.03.15 15:42:40 INFO  shutting down Metals
+2023.03.15 15:42:41 INFO  Shut down connection with build server.
+2023.03.15 15:42:41 INFO  Shut down connection with build server.
+2023.03.15 15:42:40 INFO  Exiting server
+2023.03.15 15:42:49 INFO  Started: Metals version 0.11.11 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.15 15:42:50 INFO  time: initialize in 0.83s
+2023.03.15 15:42:50 INFO  Attempting to connect to the build server...
+2023.03.15 15:42:50 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:42:50 INFO  skipping build import with status 'Installed'
+2023.03.15 15:42:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:42:50 INFO  Attempting to connect to the build server...
+2023.03.15 15:42:50 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:42:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:42:50 INFO  time: Connected to build server in 0.44s
+2023.03.15 15:42:50 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.15 15:42:53 INFO  time: indexed workspace in 2.07s
+Mar 15, 2023 3:43:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:43:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.15 15:43:57 INFO  Shutting down server
+2023.03.15 15:43:57 INFO  shutting down Metals
+2023.03.15 15:43:58 INFO  Shut down connection with build server.
+2023.03.15 15:43:58 INFO  Shut down connection with build server.
+2023.03.15 15:43:57 INFO  Exiting server
+2023.03.15 15:44:06 INFO  Started: Metals version 0.11.11 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.15 15:44:07 INFO  time: initialize in 0.77s
+2023.03.15 15:44:07 INFO  Attempting to connect to the build server...
+2023.03.15 15:44:07 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:44:07 INFO  skipping build import with status 'Installed'
+2023.03.15 15:44:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:44:07 INFO  Attempting to connect to the build server...
+2023.03.15 15:44:07 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:44:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:44:07 INFO  time: Connected to build server in 0.41s
+2023.03.15 15:44:07 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.15 15:44:10 INFO  time: indexed workspace in 2.14s
+Mar 15, 2023 3:45:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.15 15:45:19 INFO  Shutting down server
+2023.03.15 15:45:19 INFO  shutting down Metals
+2023.03.15 15:45:19 INFO  Shut down connection with build server.
+2023.03.15 15:45:19 INFO  Shut down connection with build server.
+2023.03.15 15:45:19 INFO  Exiting server
+2023.03.15 15:45:27 INFO  Started: Metals version 0.11.11 in workspace '/home/pcdm/hann/test' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.15 15:45:28 INFO  time: initialize in 0.84s
+2023.03.15 15:45:29 INFO  Attempting to connect to the build server...
+2023.03.15 15:45:29 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:45:29 INFO  skipping build import with status 'Installed'
+2023.03.15 15:45:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:45:29 INFO  Attempting to connect to the build server...
+2023.03.15 15:45:29 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pcdm/.bloop/bloop.json
+2023.03.15 15:45:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2023.03.15 15:45:29 INFO  time: Connected to build server in 0.38s
+2023.03.15 15:45:29 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.15 15:45:31 INFO  time: indexed workspace in 2.12s
+Mar 15, 2023 3:48:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:49:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:49:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:52:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:54:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:54:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:55:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:56:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 3:56:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 4:04:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 4:05:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 4:05:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 4:06:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 4:07:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 4:07:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 4:09:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
