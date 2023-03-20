@@ -23,6 +23,7 @@
             "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/kafka/kafka_2.13/3.1.0/kafka_2.13-3.1.0.jar",
             "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql-kafka-0-10_2.13/3.2.0/spark-sql-kafka-0-10_2.13-3.2.0.jar",
             "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.9.0/os-lib_2.13-0.9.0.jar",
+            "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.7.0/akka-actor_2.13-2.7.0.jar",
             "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.3/scala-parallel-collections_2.13-1.0.3.jar",
             "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro/1.10.2/avro-1.10.2.jar",
             "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.10.2/avro-mapred-1.10.2.jar",
@@ -110,6 +111,7 @@
             "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-cli/commons-cli/1.4/commons-cli-1.4.jar",
             "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar",
             "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/1.0.0/geny_2.13-1.0.0.jar",
+            "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
             "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar",
             "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar",
             "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.10.2/avro-ipc-1.10.2.jar",
@@ -398,6 +400,23 @@
                             "name": "os-lib_2.13",
                             "classifier": "sources",
                             "path": "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.9.0/os-lib_2.13-0.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor_2.13",
+                    "version": "2.7.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor_2.13",
+                            "path": "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.7.0/akka-actor_2.13-2.7.0.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.13",
+                            "classifier": "sources",
+                            "path": "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.7.0/akka-actor_2.13-2.7.0-sources.jar"
                         }
                     ]
                 },
@@ -1872,6 +1891,23 @@
                             "name": "geny_2.13",
                             "classifier": "sources",
                             "path": "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/1.0.0/geny_2.13-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "/home/pcdm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2-sources.jar"
                         }
                     ]
                 },

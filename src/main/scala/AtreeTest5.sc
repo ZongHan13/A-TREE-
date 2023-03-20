@@ -297,6 +297,7 @@ class ATree() {
 
 val tree = new ATree()
 tree.insert("A^D^E^F")
+tree.insert("A^B^C")
 //println("1")
 tree.insert("C^B^Z^X")
 //println("2")
@@ -304,10 +305,12 @@ tree.insert("A^B^C^D")
 tree.insert("A^B^Z^X")
 tree.insert("A^B^Z")
 tree.insert("A^B^Z^Y")
-tree.insert("A^B^C")
+
 tree.insert("C^Z^E^F")
 tree.insert("C^Z^E^F^G")
-tree.insert("C^Z^E^F^A^B") //some index problem 
+tree.insert("C^Z^E^F^A^B") 
+
+//some index problem 
 //tree.insert("C^Z^E^F^G^A^D")
 // println(tree.root(2).expression)
 // println(tree.root(2).childExprs.size)
@@ -366,7 +369,7 @@ println(" ----- Node A ------")
 println(tree.hen(30742).expression)
 println(tree.hen(30742).childs(0).expression)
 println(tree.hen(30742).childs(1).expression)
-println(tree.hen(30742).childs(2).expression)
+//println(tree.hen(30742).childs(2).expression)
 println("-------------")
 // println(tree.hen(30742).childs(1).childs(0).expression)
 // println(tree.hen(30742).childs(1).childs(1).expression)

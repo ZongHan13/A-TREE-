@@ -18,6 +18,7 @@ class inner_Node(_expression: String) extends Node {
   var childExprs: ListBuffer[List[String]]  = ListBuffer[List[String]] ()
   var result: Boolean = _
   
+  
 //   private def evaluating():Boolean = {
 //     val regex = "(?<!\\^)(?=\\^)|(?<=\\^)(?!\\^)|(?<!∨)(?=∨)|(?<=∨)(?!∨)"
 //     val resultList = expression.split(regex).toList
@@ -58,13 +59,14 @@ class ATree() {
             // println("flag: " + flag)
             var childNodes: ListBuffer[Node] =  ListBuffer[Node]()
             //var childExprs = List(_expression)
-            if(_expression.length() >1){
+            if(_expression.length() >1) {
                 if (childExprs.size > 1 ) {
-                    for(expr <- childExprs) {
-                        var childNode = insert(expr)
+                  for(expr <- childExprs) {
+                    var childNode = insert(expr)
                         childNodes += childNode
                     }
-               } //else {
+               } 
+            //else {
             // for (childExpr <- childExprs) {
                 
             //     //val childNode = insert(childExpr)

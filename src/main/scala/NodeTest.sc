@@ -13,7 +13,8 @@ class inner_Node(val expr: String) {
             case n: inner_Node => {
                 n.parent += this
                 child += n
-                resultCount += 1}
+                resultCount += 1
+            }
             case n: leaf_Node => {
                 n.parent += this
                 child += n
@@ -24,7 +25,7 @@ class inner_Node(val expr: String) {
         
     }
     def evaluating:Unit = {
-        if(trueCounter == resultCount) {
+        if(trueCounter ==  resultCount) {
             result = true 
             if (result == true)  {
                 println(s"Sender $expr : Send notification to user")
@@ -69,7 +70,7 @@ class leaf_Node(val expr: String) {
             p.evaluating
         }
     }
-
+    
 
 }
 
@@ -133,7 +134,7 @@ println("-0---------------------")
 e.changeResult("true")
 // println(d.result)
 // println(d.resultCount)
-// println(d.trueCountr)
+// println(d.trueCountr) 
 
 val listt = List(-1,7,-2)
 //println(add10(maxPosOrNeg(listt)))

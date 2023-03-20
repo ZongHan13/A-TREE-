@@ -7,5 +7,12 @@
     "forflag",
     "fortestt",
     "secondlayer"
-  ]
+  ],
+  "cSpell.ignoreWords": [
+    "Ctest",
+    "Inet",
+    "Stest",
+    "firtst"
+  ],
+  "editor.guides.bracketPairs": true
 }
