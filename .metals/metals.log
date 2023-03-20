@@ -13376,3 +13376,810 @@ WARNING: Unmatched cancel notification for request id 11
 2023.03.20 20:36:39 INFO  time: indexed workspace in 2.38s
 Mar 20, 2023 8:37:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Mar 20, 2023 8:39:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 20, 2023 8:39:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 20, 2023 8:40:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.20 20:41:08 INFO  compiling test (1 scala source)
+2023.03.20 20:41:08 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 20:41:08 INFO  time: compiled test in 0.49s
+2023.03.20 20:41:51 INFO  compiling test (1 scala source)
+2023.03.20 20:41:51 INFO  time: compiled test in 0.12s
+2023.03.20 20:42:05 INFO  compiling test (1 scala source)
+2023.03.20 20:42:05 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 20:42:05 INFO  time: compiled test in 0.46s
+2023.03.20 20:42:19 INFO  compiling test (1 scala source)
+2023.03.20 20:42:19 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 20:42:19 INFO  time: compiled test in 0.49s
+2023.03.20 20:42:50 INFO  compiling test (1 scala source)
+2023.03.20 20:42:50 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 20:42:50 INFO  time: compiled test in 0.69s
+2023.03.20 20:43:07 INFO  compiling test (1 scala source)
+2023.03.20 20:43:07 INFO  time: compiled test in 0.11s
+2023.03.20 20:43:55 INFO  compiling test (1 scala source)
+2023.03.20 20:43:55 INFO  time: compiled test in 0.1s
+2023.03.20 20:44:06 INFO  compiling test (1 scala source)
+2023.03.20 20:44:06 INFO  time: compiled test in 99ms
+2023.03.20 20:44:18 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+2023.03.20 20:44:24 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+2023.03.20 20:44:27 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+2023.03.20 20:44:28 INFO  compiling test (1 scala source)
+2023.03.20 20:44:28 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 20:44:28 INFO  time: compiled test in 0.47s
+2023.03.20 20:44:39 INFO  compiling test (1 scala source)
+2023.03.20 20:44:39 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 20:44:39 INFO  time: compiled test in 0.51s
+2023.03.20 20:44:53 INFO  compiling test (1 scala source)
+2023.03.20 20:44:53 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 20:44:53 INFO  time: compiled test in 0.54s
+2023.03.20 20:45:10 INFO  compiling test (1 scala source)
+2023.03.20 20:45:10 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 20:45:10 INFO  time: compiled test in 0.5s
+2023.03.20 20:45:19 INFO  compiling test (1 scala source)
+2023.03.20 20:45:19 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 20:45:19 INFO  time: compiled test in 0.47s
+2023.03.20 20:49:11 INFO  compiling test (1 scala source)
+2023.03.20 20:49:11 INFO  time: compiled test in 70ms
+2023.03.20 20:49:28 INFO  compiling test (1 scala source)
+2023.03.20 20:49:28 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 20:49:28 INFO  time: compiled test in 0.49s
+Mar 20, 2023 8:49:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1256
+2023.03.20 20:49:51 INFO  compiling test (1 scala source)
+2023.03.20 20:49:51 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 20:49:51 INFO  time: compiled test in 0.46s
+2023.03.20 20:50:10 INFO  compiling test (1 scala source)
+2023.03.20 20:50:10 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 20:50:10 INFO  time: compiled test in 0.5s
+2023.03.20 20:52:50 INFO  compiling test (1 scala source)
+2023.03.20 20:52:50 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 20:52:50 INFO  time: compiled test in 0.51s
+Mar 20, 2023 8:53:45 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Mar 20, 2023 8:53:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:420)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2023.03.20 20:54:51 INFO  compiling test (1 scala source)
+2023.03.20 20:54:51 INFO  time: compiled test in 0.13s
+2023.03.20 20:54:58 INFO  compiling test (1 scala source)
+2023.03.20 20:54:58 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 20:54:58 INFO  time: compiled test in 0.49s
+Mar 20, 2023 8:55:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2087
+Mar 20, 2023 8:55:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2134
+2023.03.20 20:56:26 INFO  compiling test (1 scala source)
+2023.03.20 20:56:26 INFO  time: compiled test in 70ms
+2023.03.20 20:56:54 INFO  compiling test (1 scala source)
+2023.03.20 20:56:54 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 20:56:54 INFO  time: compiled test in 0.55s
+Mar 20, 2023 9:03:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.20 21:05:35 INFO  compiling test (1 scala source)
+2023.03.20 21:05:35 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 21:05:35 INFO  time: compiled test in 0.73s
+Mar 20, 2023 9:06:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2802
+2023.03.20 21:08:35 INFO  compiling test (1 scala source)
+2023.03.20 21:08:35 INFO  time: compiled test in 0.1s
+2023.03.20 21:08:35 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+2023.03.20 21:08:37 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+2023.03.20 21:08:37 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+2023.03.20 21:08:38 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+2023.03.20 21:08:41 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+2023.03.20 21:08:42 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+2023.03.20 21:08:44 INFO  compiling test (1 scala source)
+2023.03.20 21:08:44 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 21:08:44 INFO  time: compiled test in 0.51s
+2023.03.20 21:09:32 INFO  compiling test (1 scala source)
+2023.03.20 21:09:32 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 21:09:32 INFO  time: compiled test in 0.49s
+2023.03.20 21:10:25 INFO  compiling test (1 scala source)
+2023.03.20 21:10:25 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 21:10:25 INFO  time: compiled test in 0.56s
+2023.03.20 21:10:26 INFO  compiling test (1 scala source)
+2023.03.20 21:10:26 INFO  time: compiled test in 62ms
+2023.03.20 21:10:32 INFO  compiling test (1 scala source)
+2023.03.20 21:10:32 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 21:10:32 INFO  time: compiled test in 0.5s
+2023.03.20 21:10:59 INFO  compiling test (1 scala source)
+2023.03.20 21:10:59 INFO  time: compiled test in 0.12s
+2023.03.20 21:11:02 INFO  compiling test (1 scala source)
+2023.03.20 21:11:02 INFO  time: compiled test in 0.46s
+2023.03.20 21:11:15 INFO  compiling test (1 scala source)
+2023.03.20 21:11:15 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 21:11:15 INFO  time: compiled test in 0.56s
+2023.03.20 21:11:34 INFO  compiling test (1 scala source)
+2023.03.20 21:11:34 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 21:11:34 INFO  time: compiled test in 0.52s
+2023.03.20 21:11:59 INFO  compiling test (1 scala source)
+2023.03.20 21:11:59 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 21:11:59 INFO  time: compiled test in 0.59s
+2023.03.20 21:12:56 INFO  compiling test (1 scala source)
+2023.03.20 21:12:56 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 21:12:56 INFO  time: compiled test in 0.54s
+2023.03.20 21:14:55 INFO  compiling test (1 scala source)
+2023.03.20 21:14:55 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 21:14:55 INFO  time: compiled test in 0.53s
+Mar 20, 2023 9:16:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3499
+Mar 20, 2023 9:16:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3520
+2023.03.20 21:17:05 INFO  compiling test (1 scala source)
+2023.03.20 21:17:05 INFO  time: compiled test in 89ms
+2023.03.20 21:17:06 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+2023.03.20 21:17:07 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+2023.03.20 21:17:09 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+2023.03.20 21:17:09 INFO  compiling test (1 scala source)
+2023.03.20 21:17:09 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 21:17:09 INFO  time: compiled test in 0.56s
+2023.03.20 21:18:19 INFO  compiling test (1 scala source)
+2023.03.20 21:18:19 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 21:18:19 INFO  time: compiled test in 0.52s
+2023.03.20 21:19:45 INFO  compiling test (1 scala source)
+2023.03.20 21:19:45 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 21:19:45 INFO  time: compiled test in 0.5s
+2023.03.20 21:19:49 INFO  compiling test (1 scala source)
+2023.03.20 21:19:49 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 21:19:49 INFO  time: compiled test in 0.53s
+2023.03.20 21:59:21 INFO  compiling test (1 scala source)
+2023.03.20 21:59:21 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 21:59:21 INFO  time: compiled test in 0.5s
+2023.03.20 22:01:10 INFO  compiling test (1 scala source)
+2023.03.20 22:01:10 INFO  time: compiled test in 85ms
+2023.03.20 22:01:10 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+Mar 20, 2023 10:01:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4198
+2023.03.20 22:01:11 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+2023.03.20 22:01:12 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+Mar 20, 2023 10:03:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4272
+2023.03.20 22:03:57 INFO  compiling test (1 scala source)
+2023.03.20 22:03:57 INFO  time: compiled test in 92ms
+2023.03.20 22:04:47 INFO  compiling test (1 scala source)
+2023.03.20 22:04:47 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:04:47 INFO  time: compiled test in 0.5s
+2023.03.20 22:05:00 INFO  compiling test (1 scala source)
+2023.03.20 22:05:00 INFO  time: compiled test in 99ms
+2023.03.20 22:05:34 INFO  compiling test (1 scala source)
+2023.03.20 22:05:34 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:05:34 INFO  time: compiled test in 0.49s
+2023.03.20 22:07:30 INFO  compiling test (1 scala source)
+2023.03.20 22:07:30 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:07:30 INFO  time: compiled test in 0.57s
+2023.03.20 22:23:18 INFO  compiling test (1 scala source)
+2023.03.20 22:23:18 INFO  time: compiled test in 55ms
+2023.03.20 22:23:28 INFO  compiling test (1 scala source)
+2023.03.20 22:23:28 INFO  time: compiled test in 97ms
+2023.03.20 22:23:49 INFO  compiling test (1 scala source)
+2023.03.20 22:23:49 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:23:49 INFO  time: compiled test in 0.55s
+2023.03.20 22:24:57 INFO  compiling test (1 scala source)
+2023.03.20 22:24:57 INFO  time: compiled test in 0.11s
+2023.03.20 22:25:31 INFO  compiling test (1 scala source)
+2023.03.20 22:25:31 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:25:31 INFO  time: compiled test in 0.52s
+2023.03.20 22:25:59 INFO  compiling test (1 scala source)
+2023.03.20 22:25:59 INFO  time: compiled test in 0.11s
+2023.03.20 22:26:15 INFO  compiling test (1 scala source)
+2023.03.20 22:26:15 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:26:15 INFO  time: compiled test in 0.56s
+2023.03.20 22:26:43 INFO  compiling test (1 scala source)
+2023.03.20 22:26:43 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:26:43 INFO  time: compiled test in 0.54s
+Mar 20, 2023 10:27:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5500
+2023.03.20 22:27:23 INFO  compiling test (1 scala source)
+2023.03.20 22:27:23 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:27:23 INFO  time: compiled test in 0.53s
+2023.03.20 22:28:02 INFO  compiling test (1 scala source)
+2023.03.20 22:28:02 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:28:02 INFO  time: compiled test in 0.51s
+2023.03.20 22:28:09 INFO  compiling test (1 scala source)
+2023.03.20 22:28:09 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:28:09 INFO  time: compiled test in 0.53s
+2023.03.20 22:28:18 INFO  compiling test (1 scala source)
+2023.03.20 22:28:18 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:28:18 INFO  time: compiled test in 0.76s
+2023.03.20 22:28:48 INFO  compiling test (1 scala source)
+2023.03.20 22:28:48 INFO  time: compiled test in 85ms
+2023.03.20 22:28:59 INFO  compiling test (1 scala source)
+2023.03.20 22:28:59 INFO  time: compiled test in 0.14s
+2023.03.20 22:29:19 INFO  compiling test (1 scala source)
+2023.03.20 22:29:19 INFO  time: compiled test in 71ms
+2023.03.20 22:29:28 INFO  compiling test (1 scala source)
+2023.03.20 22:29:28 INFO  time: compiled test in 70ms
+2023.03.20 22:29:28 INFO  compiling test (1 scala source)
+2023.03.20 22:29:28 INFO  time: compiled test in 2ms
+2023.03.20 22:29:39 INFO  compiling test (1 scala source)
+2023.03.20 22:29:39 INFO  time: compiled test in 72ms
+2023.03.20 22:29:42 INFO  compiling test (1 scala source)
+2023.03.20 22:29:42 INFO  time: compiled test in 78ms
+2023.03.20 22:29:52 INFO  compiling test (1 scala source)
+2023.03.20 22:29:52 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:29:52 INFO  time: compiled test in 0.51s
+2023.03.20 22:29:57 INFO  compiling test (1 scala source)
+2023.03.20 22:29:57 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:29:57 INFO  time: compiled test in 0.55s
+2023.03.20 22:30:59 INFO  compiling test (1 scala source)
+2023.03.20 22:30:59 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:30:59 INFO  time: compiled test in 0.49s
+2023.03.20 22:32:10 INFO  compiling test (1 scala source)
+2023.03.20 22:32:10 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:32:10 INFO  time: compiled test in 0.55s
+2023.03.20 22:32:22 INFO  compiling test (1 scala source)
+2023.03.20 22:32:22 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:32:22 INFO  time: compiled test in 0.53s
+2023.03.20 22:33:29 INFO  compiling test (1 scala source)
+2023.03.20 22:33:29 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:33:29 INFO  time: compiled test in 0.5s
+2023.03.20 22:34:34 INFO  compiling test (1 scala source)
+2023.03.20 22:34:34 INFO  time: compiled test in 0.13s
+2023.03.20 22:34:37 INFO  compiling test (1 scala source)
+2023.03.20 22:34:37 INFO  time: compiled test in 0.11s
+2023.03.20 22:34:41 INFO  compiling test (1 scala source)
+2023.03.20 22:34:41 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:34:41 INFO  time: compiled test in 0.52s
+2023.03.20 22:37:16 INFO  compiling test (1 scala source)
+2023.03.20 22:37:16 INFO  time: compiled test in 0.11s
+2023.03.20 22:37:21 INFO  compiling test (1 scala source)
+2023.03.20 22:37:21 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:37:21 INFO  time: compiled test in 0.52s
+2023.03.20 22:38:26 INFO  compiling test (1 scala source)
+2023.03.20 22:38:26 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:38:26 INFO  time: compiled test in 0.56s
+2023.03.20 22:38:35 INFO  compiling test (1 scala source)
+2023.03.20 22:38:35 INFO  time: compiled test in 0.32s
+2023.03.20 22:38:54 INFO  compiling test (1 scala source)
+2023.03.20 22:38:54 INFO  time: compiled test in 0.13s
+2023.03.20 22:39:00 INFO  compiling test (1 scala source)
+2023.03.20 22:39:00 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:39:00 INFO  time: compiled test in 0.55s
+2023.03.20 22:40:49 INFO  compiling test (1 scala source)
+2023.03.20 22:40:49 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/SimpleActorExample.scala
+2023.03.20 22:40:49 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:40:49 INFO  time: compiled test in 0.53s
+2023.03.20 22:42:31 INFO  compiling test (1 scala source)
+2023.03.20 22:42:31 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:42:31 INFO  time: compiled test in 0.51s
+2023.03.20 22:42:56 INFO  compiling test (1 scala source)
+2023.03.20 22:42:56 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:42:56 INFO  time: compiled test in 0.51s
+2023.03.20 22:42:59 INFO  compiling test (1 scala source)
+2023.03.20 22:42:59 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:42:59 INFO  time: compiled test in 0.54s
+2023.03.20 22:43:16 INFO  compiling test (1 scala source)
+2023.03.20 22:43:16 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:43:16 INFO  time: compiled test in 0.55s
+Mar 20, 2023 10:43:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.20 22:44:11 INFO  compiling test (1 scala source)
+2023.03.20 22:44:11 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:44:11 INFO  time: compiled test in 0.51s
+Mar 20, 2023 10:44:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7162
+2023.03.20 22:44:22 INFO  compiling test (1 scala source)
+2023.03.20 22:44:22 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:44:22 INFO  time: compiled test in 0.53s
+Mar 20, 2023 10:45:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7411
+Mar 20, 2023 10:45:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7416
+2023.03.20 22:45:58 INFO  compiling test (1 scala source)
+2023.03.20 22:45:58 INFO  time: compiled test in 0.13s
+2023.03.20 22:46:07 INFO  compiling test (1 scala source)
+2023.03.20 22:46:07 INFO  time: compiled test in 0.12s
+2023.03.20 22:46:29 INFO  compiling test (1 scala source)
+2023.03.20 22:46:29 WARN  1 deprecation (since 2.13.0)
+2023.03.20 22:46:29 WARN  2 deprecations (since 2.13.3)
+2023.03.20 22:46:29 WARN  3 deprecations in total; re-run with -deprecation for details
+2023.03.20 22:46:29 INFO  time: compiled test in 0.55s
+2023.03.20 22:48:37 INFO  compiling test (1 scala source)
+2023.03.20 22:48:37 WARN  1 deprecation (since 2.13.0)
+2023.03.20 22:48:37 WARN  2 deprecations (since 2.13.3)
+2023.03.20 22:48:37 WARN  3 deprecations in total; re-run with -deprecation for details
+2023.03.20 22:48:37 INFO  time: compiled test in 0.56s
+Mar 20, 2023 10:48:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7939
+2023.03.20 22:48:54 INFO  compiling test (1 scala source)
+2023.03.20 22:48:54 WARN  1 deprecation (since 2.13.0)
+2023.03.20 22:48:54 WARN  2 deprecations (since 2.13.3)
+2023.03.20 22:48:54 WARN  3 deprecations in total; re-run with -deprecation for details
+2023.03.20 22:48:54 INFO  time: compiled test in 0.57s
+2023.03.20 22:49:57 INFO  compiling test (1 scala source)
+2023.03.20 22:49:57 WARN  1 deprecation (since 2.13.0)
+2023.03.20 22:49:57 WARN  2 deprecations (since 2.13.3)
+2023.03.20 22:49:57 WARN  3 deprecations in total; re-run with -deprecation for details
+2023.03.20 22:49:57 INFO  time: compiled test in 0.56s
+2023.03.20 22:50:42 INFO  compiling test (1 scala source)
+2023.03.20 22:50:42 WARN  2 deprecations (since 2.13.0)
+2023.03.20 22:50:42 WARN  2 deprecations (since 2.13.3)
+2023.03.20 22:50:42 WARN  4 deprecations in total; re-run with -deprecation for details
+2023.03.20 22:50:42 INFO  time: compiled test in 0.53s
+2023.03.20 22:50:47 WARN  Found duplicate entry metrics-core in debuggee MainClassDebugAdapter(test, SimpleActorExample)
+2023.03.20 22:50:48 INFO  Configured debugger context in 1 second
+2023.03.20 22:50:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-server.trace.json or /home/pcdm/.cache/metals/dap-server.trace.json
+2023.03.20 22:50:48 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/test/.metals/dap-client.trace.json or /home/pcdm/.cache/metals/dap-client.trace.json
+2023.03.20 22:50:48 INFO  Starting debug proxy for [SimpleActorExample]
+2023.03.20 22:50:48 INFO  Trying to attach to remote debuggee VM localhost:41973 .
+2023.03.20 22:50:48 INFO  Attaching to debuggee VM succeeded.
+2023.03.20 22:51:46 INFO  Canceling debug proxy for [SimpleActorExample]
+2023.03.20 22:51:46 INFO  Closing debug server tcp://0.0.0.0:43397
+2023.03.20 22:52:12 INFO  compiling test (1 scala source)
+2023.03.20 22:52:12 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:52:12 INFO  time: compiled test in 0.54s
+2023.03.20 22:52:31 INFO  compiling test (1 scala source)
+2023.03.20 22:52:31 WARN  3 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:52:31 INFO  time: compiled test in 0.56s
+2023.03.20 22:53:26 INFO  compiling test (1 scala source)
+2023.03.20 22:53:26 INFO  time: compiled test in 98ms
+2023.03.20 22:53:36 INFO  compiling test (1 scala source)
+2023.03.20 22:53:36 WARN  3 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:53:36 INFO  time: compiled test in 0.54s
+2023.03.20 22:53:48 INFO  compiling test (1 scala source)
+2023.03.20 22:53:48 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:53:48 INFO  time: compiled test in 0.5s
+2023.03.20 22:54:02 INFO  compiling test (1 scala source)
+2023.03.20 22:54:02 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:54:02 INFO  time: compiled test in 0.52s
+2023.03.20 22:54:45 INFO  compiling test (1 scala source)
+2023.03.20 22:54:45 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:54:45 INFO  time: compiled test in 0.53s
+2023.03.20 22:54:49 INFO  compiling test (1 scala source)
+2023.03.20 22:54:49 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:54:49 INFO  time: compiled test in 0.56s
+2023.03.20 22:54:54 INFO  compiling test (1 scala source)
+2023.03.20 22:54:54 INFO  time: compiled test in 64ms
+2023.03.20 22:55:00 INFO  compiling test (1 scala source)
+2023.03.20 22:55:00 INFO  time: compiled test in 0.11s
+2023.03.20 22:55:09 INFO  compiling test (1 scala source)
+2023.03.20 22:55:09 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:55:09 INFO  time: compiled test in 0.54s
+2023.03.20 22:55:39 INFO  compiling test (1 scala source)
+2023.03.20 22:55:39 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:55:39 INFO  time: compiled test in 0.55s
+2023.03.20 22:56:09 INFO  compiling test (1 scala source)
+2023.03.20 22:56:09 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:56:09 INFO  time: compiled test in 0.59s
+2023.03.20 22:57:00 INFO  compiling test (1 scala source)
+2023.03.20 22:57:00 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:57:00 INFO  time: compiled test in 0.53s
+2023.03.20 22:57:43 INFO  compiling test (1 scala source)
+2023.03.20 22:57:43 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 22:57:43 INFO  time: compiled test in 0.52s
+2023.03.20 22:58:06 INFO  compiling test (1 scala source)
+2023.03.20 22:58:06 WARN  1 deprecation (since 2.13.0)
+2023.03.20 22:58:06 WARN  2 deprecations (since 2.13.3)
+2023.03.20 22:58:06 WARN  3 deprecations in total; re-run with -deprecation for details
+2023.03.20 22:58:06 INFO  time: compiled test in 0.53s
+Mar 20, 2023 10:58:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9069
+2023.03.20 22:58:39 INFO  compiling test (1 scala source)
+2023.03.20 22:58:39 WARN  1 deprecation (since 2.13.0)
+2023.03.20 22:58:39 WARN  2 deprecations (since 2.13.3)
+2023.03.20 22:58:39 WARN  3 deprecations in total; re-run with -deprecation for details
+2023.03.20 22:58:39 INFO  time: compiled test in 0.53s
+2023.03.20 22:58:54 INFO  compiling test (1 scala source)
+2023.03.20 22:58:54 INFO  time: compiled test in 0.12s
+2023.03.20 22:59:03 INFO  compiling test (1 scala source)
+2023.03.20 22:59:03 WARN  1 deprecation (since 2.13.0)
+2023.03.20 22:59:03 WARN  2 deprecations (since 2.13.3)
+2023.03.20 22:59:03 WARN  3 deprecations in total; re-run with -deprecation for details
+2023.03.20 22:59:03 INFO  time: compiled test in 0.53s
+2023.03.20 23:03:34 INFO  compiling test (1 scala source)
+2023.03.20 23:03:34 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:03:34 INFO  time: compiled test in 0.51s
+Mar 20, 2023 11:03:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9364
+2023.03.20 23:03:46 INFO  compiling test (1 scala source)
+2023.03.20 23:03:46 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:03:46 INFO  time: compiled test in 0.52s
+2023.03.20 23:04:13 INFO  compiling test (1 scala source)
+2023.03.20 23:04:13 INFO  time: compiled test in 0.3s
+2023.03.20 23:04:25 INFO  compiling test (1 scala source)
+2023.03.20 23:04:25 INFO  time: compiled test in 0.26s
+2023.03.20 23:04:31 INFO  compiling test (1 scala source)
+2023.03.20 23:04:31 INFO  time: compiled test in 67ms
+2023.03.20 23:04:31 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/ActorReplyExample.scala
+2023.03.20 23:04:32 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/ActorReplyExample.scala
+2023.03.20 23:04:32 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/ActorReplyExample.scala
+2023.03.20 23:04:32 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/ActorReplyExample.scala
+2023.03.20 23:04:32 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/ActorReplyExample.scala
+2023.03.20 23:04:32 WARN  Could not load snapshot text for /home/pcdm/hann/test/src/main/scala/Socket/ActorReplyExample.scala
+2023.03.20 23:04:32 INFO  compiling test (1 scala source)
+2023.03.20 23:04:32 WARN  3 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:04:32 INFO  time: compiled test in 0.42s
+2023.03.20 23:04:44 INFO  compiling test (1 scala source)
+2023.03.20 23:04:44 WARN  1 deprecation (since 2.13.0)
+2023.03.20 23:04:44 WARN  4 deprecations (since 2.13.3)
+2023.03.20 23:04:44 WARN  5 deprecations in total; re-run with -deprecation for details
+2023.03.20 23:04:44 INFO  time: compiled test in 0.47s
+2023.03.20 23:05:04 INFO  compiling test (1 scala source)
+2023.03.20 23:05:04 WARN  1 deprecation (since 2.13.0)
+2023.03.20 23:05:04 WARN  4 deprecations (since 2.13.3)
+2023.03.20 23:05:04 WARN  5 deprecations in total; re-run with -deprecation for details
+2023.03.20 23:05:04 INFO  time: compiled test in 0.45s
+2023.03.20 23:05:13 INFO  compiling test (1 scala source)
+2023.03.20 23:05:13 WARN  1 deprecation (since 2.13.0)
+2023.03.20 23:05:13 WARN  4 deprecations (since 2.13.3)
+2023.03.20 23:05:13 WARN  5 deprecations in total; re-run with -deprecation for details
+2023.03.20 23:05:13 INFO  time: compiled test in 0.44s
+2023.03.20 23:07:22 INFO  compiling test (1 scala source)
+2023.03.20 23:07:22 WARN  1 deprecation (since 2.13.0)
+2023.03.20 23:07:22 WARN  4 deprecations (since 2.13.3)
+2023.03.20 23:07:22 WARN  5 deprecations in total; re-run with -deprecation for details
+2023.03.20 23:07:22 INFO  time: compiled test in 0.47s
+2023.03.20 23:09:24 INFO  compiling test (1 scala source)
+2023.03.20 23:09:24 WARN  1 deprecation (since 2.13.0)
+2023.03.20 23:09:24 WARN  5 deprecations (since 2.13.3)
+2023.03.20 23:09:24 WARN  6 deprecations in total; re-run with -deprecation for details
+2023.03.20 23:09:24 INFO  time: compiled test in 0.46s
+Mar 20, 2023 11:10:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9892
+2023.03.20 23:10:24 INFO  compiling test (1 scala source)
+2023.03.20 23:10:24 WARN  1 deprecation (since 2.13.0)
+2023.03.20 23:10:24 WARN  6 deprecations (since 2.13.3)
+2023.03.20 23:10:24 WARN  7 deprecations in total; re-run with -deprecation for details
+2023.03.20 23:10:24 INFO  time: compiled test in 0.48s
+Mar 20, 2023 11:10:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10045
+2023.03.20 23:10:52 INFO  compiling test (1 scala source)
+2023.03.20 23:10:52 WARN  1 deprecation (since 2.13.0)
+2023.03.20 23:10:52 WARN  5 deprecations (since 2.13.3)
+2023.03.20 23:10:52 WARN  6 deprecations in total; re-run with -deprecation for details
+2023.03.20 23:10:52 INFO  time: compiled test in 0.5s
+2023.03.20 23:11:25 INFO  compiling test (1 scala source)
+2023.03.20 23:11:25 WARN  1 deprecation (since 2.13.0)
+2023.03.20 23:11:25 WARN  5 deprecations (since 2.13.3)
+2023.03.20 23:11:25 WARN  6 deprecations in total; re-run with -deprecation for details
+2023.03.20 23:11:25 INFO  time: compiled test in 0.46s
+2023.03.20 23:11:29 INFO  compiling test (1 scala source)
+2023.03.20 23:11:29 WARN  1 deprecation (since 2.13.0)
+2023.03.20 23:11:29 WARN  5 deprecations (since 2.13.3)
+2023.03.20 23:11:29 WARN  6 deprecations in total; re-run with -deprecation for details
+2023.03.20 23:11:29 INFO  time: compiled test in 0.44s
+2023.03.20 23:11:40 INFO  compiling test (1 scala source)
+2023.03.20 23:11:40 WARN  1 deprecation (since 2.13.0)
+2023.03.20 23:11:40 WARN  5 deprecations (since 2.13.3)
+2023.03.20 23:11:40 WARN  6 deprecations in total; re-run with -deprecation for details
+2023.03.20 23:11:40 INFO  time: compiled test in 0.48s
+2023.03.20 23:12:17 INFO  compiling test (1 scala source)
+2023.03.20 23:12:17 WARN  1 deprecation (since 2.13.0)
+2023.03.20 23:12:17 WARN  6 deprecations (since 2.13.3)
+2023.03.20 23:12:17 WARN  7 deprecations in total; re-run with -deprecation for details
+2023.03.20 23:12:17 INFO  time: compiled test in 0.45s
+2023.03.20 23:14:07 INFO  compiling test (1 scala source)
+2023.03.20 23:14:07 WARN  1 deprecation (since 2.13.0)
+2023.03.20 23:14:07 WARN  7 deprecations (since 2.13.3)
+2023.03.20 23:14:07 WARN  8 deprecations in total; re-run with -deprecation for details
+2023.03.20 23:14:07 INFO  time: compiled test in 0.45s
+2023.03.20 23:15:02 INFO  compiling test (1 scala source)
+2023.03.20 23:15:02 WARN  1 deprecation (since 2.13.0)
+2023.03.20 23:15:02 WARN  7 deprecations (since 2.13.3)
+2023.03.20 23:15:02 WARN  8 deprecations in total; re-run with -deprecation for details
+2023.03.20 23:15:02 INFO  time: compiled test in 0.5s
+2023.03.20 23:16:26 INFO  compiling test (1 scala source)
+2023.03.20 23:16:26 WARN  1 deprecation (since 2.13.0)
+2023.03.20 23:16:26 WARN  7 deprecations (since 2.13.3)
+2023.03.20 23:16:26 WARN  8 deprecations in total; re-run with -deprecation for details
+2023.03.20 23:16:26 INFO  time: compiled test in 0.51s
+2023.03.20 23:24:32 INFO  compiling test (1 scala source)
+2023.03.20 23:24:32 INFO  time: compiled test in 0.26s
+2023.03.20 23:25:19 INFO  compiling test (1 scala source)
+2023.03.20 23:25:19 INFO  time: compiled test in 74ms
+2023.03.20 23:25:24 INFO  compiling test (1 scala source)
+2023.03.20 23:25:24 INFO  time: compiled test in 66ms
+2023.03.20 23:25:39 INFO  compiling test (1 scala source)
+2023.03.20 23:25:39 INFO  time: compiled test in 64ms
+2023.03.20 23:25:39 INFO  compiling test (1 scala source)
+2023.03.20 23:25:39 INFO  time: compiled test in 35ms
+2023.03.20 23:25:40 INFO  compiling test (1 scala source)
+2023.03.20 23:25:40 INFO  time: compiled test in 17ms
+2023.03.20 23:25:40 INFO  compiling test (1 scala source)
+2023.03.20 23:25:40 INFO  time: compiled test in 43ms
+2023.03.20 23:25:42 INFO  compiling test (1 scala source)
+2023.03.20 23:25:42 INFO  time: compiled test in 28ms
+2023.03.20 23:26:03 INFO  compiling test (1 scala source)
+2023.03.20 23:26:03 INFO  time: compiled test in 54ms
+2023.03.20 23:26:07 INFO  compiling test (1 scala source)
+2023.03.20 23:26:07 INFO  time: compiled test in 68ms
+2023.03.20 23:26:13 INFO  compiling test (1 scala source)
+2023.03.20 23:26:13 INFO  time: compiled test in 0.33s
+Mar 20, 2023 11:26:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11502
+2023.03.20 23:26:44 INFO  compiling test (1 scala source)
+2023.03.20 23:26:44 INFO  time: compiled test in 0.1s
+2023.03.20 23:26:46 INFO  compiling test (1 scala source)
+2023.03.20 23:26:46 INFO  time: compiled test in 98ms
+2023.03.20 23:27:06 INFO  compiling test (1 scala source)
+2023.03.20 23:27:06 INFO  time: compiled test in 78ms
+2023.03.20 23:27:09 INFO  compiling test (1 scala source)
+2023.03.20 23:27:09 INFO  time: compiled test in 0.46s
+2023.03.20 23:28:06 INFO  compiling test (1 scala source)
+2023.03.20 23:28:06 INFO  time: compiled test in 0.1s
+2023.03.20 23:28:13 INFO  compiling test (1 scala source)
+2023.03.20 23:28:13 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:28:13 INFO  time: compiled test in 0.48s
+2023.03.20 23:29:43 INFO  compiling test (1 scala source)
+2023.03.20 23:29:43 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:29:43 INFO  time: compiled test in 0.45s
+2023.03.20 23:31:54 INFO  compiling test (1 scala source)
+2023.03.20 23:31:54 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:31:54 INFO  time: compiled test in 0.63s
+2023.03.20 23:31:54 INFO  compiling test (3 scala sources)
+2023.03.20 23:31:54 WARN  1 deprecation (since 2.13.0)
+2023.03.20 23:31:54 WARN  8 deprecations (since 2.13.3)
+2023.03.20 23:31:54 WARN  9 deprecations in total; re-run with -deprecation for details
+2023.03.20 23:31:54 INFO  time: compiled test in 0.33s
+2023.03.20 23:32:44 INFO  compiling test (1 scala source)
+2023.03.20 23:32:44 INFO  time: compiled test in 0.28s
+2023.03.20 23:32:51 INFO  compiling test (1 scala source)
+2023.03.20 23:32:51 INFO  time: compiled test in 0.26s
+Mar 20, 2023 11:33:03 PM scala.meta.internal.metals.Docstrings indexSymbol
+SEVERE: file:///home/pcdm/hann/test/src/main/scala/Socket/ReadWriteTest.scala
+java.nio.file.NoSuchFileException: /home/pcdm/hann/test/src/main/scala/Socket/ReadWriteTest.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:568)
+	at scala.meta.internal.metals.Docstrings.indexSymbolDefinition(Docstrings.scala:123)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:107)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:42)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:232)
+	at scala.meta.internal.pc.CompletionItemResolver.handleSymbol(CompletionItemResolver.scala:31)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:24)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:245)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:244)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:265)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:264)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:263)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$completionItemResolve$1(MetalsLspService.scala:1732)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.completionItemResolve(MetalsLspService.scala:1730)
+	at scala.meta.metals.lsp.DelegatingScalaService.completionItemResolve(DelegatingScalaService.scala:138)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2023.03.20 23:33:15 INFO  compiling test (1 scala source)
+2023.03.20 23:33:15 INFO  time: compiled test in 0.3s
+2023.03.20 23:33:24 INFO  compiling test (1 scala source)
+2023.03.20 23:33:24 INFO  time: compiled test in 0.36s
+2023.03.20 23:33:29 INFO  compiling test (1 scala source)
+2023.03.20 23:33:29 INFO  time: compiled test in 0.28s
+Mar 20, 2023 11:33:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12349
+2023.03.20 23:33:43 INFO  compiling test (1 scala source)
+2023.03.20 23:33:43 INFO  time: compiled test in 59ms
+2023.03.20 23:33:45 INFO  compiling test (1 scala source)
+2023.03.20 23:33:45 INFO  time: compiled test in 0.45s
+2023.03.20 23:50:49 INFO  compiling test (1 scala source)
+2023.03.20 23:50:49 INFO  time: compiled test in 0.3s
+2023.03.20 23:51:04 INFO  compiling test (1 scala source)
+2023.03.20 23:51:04 INFO  time: compiled test in 0.25s
+2023.03.20 23:51:05 WARN  Using indexes to guess the definition of receive
+2023.03.20 23:51:06 INFO  compiling test (1 scala source)
+2023.03.20 23:51:06 INFO  time: compiled test in 0.48s
+2023.03.20 23:51:21 INFO  compiling test (1 scala source)
+2023.03.20 23:51:21 WARN  4 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:51:21 INFO  time: compiled test in 0.53s
+Mar 20, 2023 11:51:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12462
+2023.03.20 23:51:26 INFO  compiling test (1 scala source)
+2023.03.20 23:51:26 WARN  4 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:51:26 INFO  time: compiled test in 0.57s
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala in Array[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala, 414, 414, 429)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala in Array[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala, 414, 414, 422)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala in Array[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala, 414, 414, 423)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala in Array[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala, 414, 414, 424)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala in Array[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala, 414, 414, 423)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala in Array[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala, 414, 414, 422)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala in Array[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala, 414, 414, 424)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala in Array[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala, 414, 414, 423)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala in Array[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala, 414, 414, 424)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala in Array[<error>]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala, 414, 414, 423)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala in Array[Int]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala, 414, 414, 424)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala in Array[Int]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala, 414, 414, 424)
+something's wrong: no file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala in Array[Int]RangePosition(file:///home/pcdm/hann/test/src/main/scala/AkkaExample/ReadWriteProbAkkaVer.scala, 414, 414, 424)
+2023.03.20 23:52:06 INFO  compiling test (1 scala source)
+2023.03.20 23:52:06 INFO  time: compiled test in 0.1s
+2023.03.20 23:52:23 INFO  compiling test (1 scala source)
+2023.03.20 23:52:23 INFO  time: compiled test in 0.11s
+2023.03.20 23:52:28 INFO  compiling test (1 scala source)
+2023.03.20 23:52:28 INFO  time: compiled test in 90ms
+2023.03.20 23:52:47 INFO  compiling test (1 scala source)
+2023.03.20 23:52:47 INFO  time: compiled test in 60ms
+2023.03.20 23:52:49 INFO  compiling test (1 scala source)
+2023.03.20 23:52:49 INFO  time: compiled test in 0.12s
+2023.03.20 23:53:18 INFO  compiling test (1 scala source)
+2023.03.20 23:53:18 INFO  time: compiled test in 0.1s
+2023.03.20 23:53:33 INFO  compiling test (1 scala source)
+2023.03.20 23:53:33 INFO  time: compiled test in 91ms
+2023.03.20 23:53:45 INFO  compiling test (1 scala source)
+2023.03.20 23:53:45 INFO  time: compiled test in 0.12s
+2023.03.20 23:54:02 INFO  compiling test (1 scala source)
+2023.03.20 23:54:02 WARN  4 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:54:02 INFO  time: compiled test in 0.56s
+2023.03.20 23:54:05 INFO  compiling test (1 scala source)
+2023.03.20 23:54:05 WARN  4 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:54:05 INFO  time: compiled test in 0.56s
+2023.03.20 23:54:22 INFO  compiling test (1 scala source)
+2023.03.20 23:54:22 WARN  4 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:54:22 INFO  time: compiled test in 0.54s
+2023.03.20 23:55:22 INFO  compiling test (1 scala source)
+2023.03.20 23:55:22 WARN  4 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:55:22 INFO  time: compiled test in 0.59s
+2023.03.20 23:56:06 INFO  compiling test (1 scala source)
+2023.03.20 23:56:06 WARN  4 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:56:06 INFO  time: compiled test in 0.54s
+Mar 20, 2023 11:56:13 PM scala.meta.internal.metals.Docstrings indexSymbol
+SEVERE: file:///home/pcdm/hann/test/src/main/scala/Socket/ReadWriteTest.scala
+java.nio.file.NoSuchFileException: /home/pcdm/hann/test/src/main/scala/Socket/ReadWriteTest.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:568)
+	at scala.meta.internal.metals.Docstrings.indexSymbolDefinition(Docstrings.scala:123)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:107)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:42)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:232)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:277)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:171)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:65)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:18)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:286)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2023.03.20 23:57:21 INFO  compiling test (1 scala source)
+2023.03.20 23:57:21 WARN  8 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:57:21 INFO  time: compiled test in 0.61s
+2023.03.20 23:58:13 INFO  compiling test (1 scala source)
+2023.03.20 23:58:13 WARN  11 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:58:13 INFO  time: compiled test in 0.61s
+2023.03.20 23:58:36 INFO  compiling test (1 scala source)
+2023.03.20 23:58:36 WARN  11 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:58:36 INFO  time: compiled test in 0.57s
+2023.03.20 23:58:39 INFO  compiling test (1 scala source)
+2023.03.20 23:58:39 WARN  11 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:58:39 INFO  time: compiled test in 0.94s
+Mar 20, 2023 11:58:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13868
+2023.03.20 23:58:50 INFO  compiling test (1 scala source)
+2023.03.20 23:58:50 WARN  11 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:58:50 INFO  time: compiled test in 0.63s
+2023.03.20 23:58:58 INFO  compiling test (1 scala source)
+2023.03.20 23:58:58 WARN  11 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:58:58 INFO  time: compiled test in 0.6s
+2023.03.20 23:59:47 INFO  compiling test (1 scala source)
+2023.03.20 23:59:47 WARN  11 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.20 23:59:47 INFO  time: compiled test in 0.62s
+2023.03.21 00:00:08 INFO  compiling test (1 scala source)
+2023.03.21 00:00:08 WARN  11 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:00:08 INFO  time: compiled test in 0.59s
+2023.03.21 00:00:57 INFO  compiling test (1 scala source)
+2023.03.21 00:00:57 WARN  11 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:00:57 INFO  time: compiled test in 0.62s
+Mar 21, 2023 12:01:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14059
+2023.03.21 00:01:42 INFO  compiling test (1 scala source)
+2023.03.21 00:01:42 WARN  11 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:01:42 INFO  time: compiled test in 0.61s
+2023.03.21 00:01:52 INFO  compiling test (1 scala source)
+2023.03.21 00:01:52 WARN  11 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:01:52 INFO  time: compiled test in 0.61s
+2023.03.21 00:02:06 INFO  compiling test (1 scala source)
+2023.03.21 00:02:06 WARN  11 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:02:06 INFO  time: compiled test in 0.67s
+2023.03.21 00:02:27 INFO  compiling test (1 scala source)
+2023.03.21 00:02:27 WARN  11 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:02:27 INFO  time: compiled test in 0.6s
+2023.03.21 00:06:41 INFO  compiling test (1 scala source)
+2023.03.21 00:06:41 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:06:41 INFO  time: compiled test in 0.83s
+2023.03.21 00:07:34 INFO  compiling test (1 scala source)
+2023.03.21 00:07:34 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:07:34 INFO  time: compiled test in 0.64s
+2023.03.21 00:07:34 INFO  compiling test (2 scala sources)
+2023.03.21 00:07:34 INFO  time: compiled test in 17ms
+2023.03.21 00:07:50 INFO  compiling test (2 scala sources)
+2023.03.21 00:07:50 INFO  time: compiled test in 75ms
+2023.03.21 00:07:56 INFO  compiling test (2 scala sources)
+2023.03.21 00:07:56 INFO  time: compiled test in 72ms
+2023.03.21 00:07:56 INFO  compiling test (2 scala sources)
+2023.03.21 00:07:56 INFO  time: compiled test in 16ms
+2023.03.21 00:07:56 INFO  compiling test (2 scala sources)
+2023.03.21 00:07:56 INFO  time: compiled test in 17ms
+2023.03.21 00:08:17 INFO  compiling test (2 scala sources)
+2023.03.21 00:08:17 INFO  time: compiled test in 69ms
+Mar 21, 2023 12:08:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14328
+2023.03.21 00:08:32 INFO  compiling test (2 scala sources)
+2023.03.21 00:08:32 INFO  time: compiled test in 71ms
+2023.03.21 00:08:39 INFO  compiling test (2 scala sources)
+2023.03.21 00:08:39 INFO  time: compiled test in 94ms
+2023.03.21 00:08:45 INFO  compiling test (2 scala sources)
+2023.03.21 00:08:45 INFO  time: compiled test in 94ms
+2023.03.21 00:08:54 WARN  Using indexes to guess the definition of Reader
+2023.03.21 00:08:57 INFO  compiling test (2 scala sources)
+2023.03.21 00:08:57 INFO  time: compiled test in 97ms
+2023.03.21 00:09:02 INFO  compiling test (2 scala sources)
+2023.03.21 00:09:02 INFO  time: compiled test in 87ms
+2023.03.21 00:09:06 INFO  compiling test (2 scala sources)
+2023.03.21 00:09:06 INFO  time: compiled test in 81ms
+2023.03.21 00:09:11 INFO  compiling test (2 scala sources)
+2023.03.21 00:09:11 INFO  time: compiled test in 0.1s
+2023.03.21 00:09:13 INFO  compiling test (2 scala sources)
+2023.03.21 00:09:13 INFO  time: compiled test in 66ms
+2023.03.21 00:09:14 INFO  compiling test (2 scala sources)
+2023.03.21 00:09:14 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:09:14 INFO  time: compiled test in 0.72s
+2023.03.21 00:09:26 INFO  compiling test (1 scala source)
+2023.03.21 00:09:26 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:09:26 INFO  time: compiled test in 0.62s
+2023.03.21 00:09:47 INFO  compiling test (1 scala source)
+2023.03.21 00:09:47 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:09:47 INFO  time: compiled test in 0.62s
+2023.03.21 00:10:04 INFO  compiling test (1 scala source)
+2023.03.21 00:10:04 WARN  11 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:10:04 INFO  time: compiled test in 0.6s
+2023.03.21 00:10:04 INFO  compiling test (1 scala source)
+2023.03.21 00:10:04 INFO  time: compiled test in 65ms
+2023.03.21 00:10:12 INFO  compiling test (2 scala sources)
+2023.03.21 00:10:12 WARN  12 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:10:12 INFO  time: compiled test in 0.74s
+2023.03.21 00:11:27 INFO  compiling test (1 scala source)
+2023.03.21 00:11:27 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:11:27 INFO  time: compiled test in 0.64s
+2023.03.21 00:11:51 INFO  compiling test (1 scala source)
+2023.03.21 00:11:51 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:11:51 INFO  time: compiled test in 0.67s
+Mar 21, 2023 12:12:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15012
+2023.03.21 00:12:20 INFO  compiling test (1 scala source)
+2023.03.21 00:12:20 WARN  11 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.03.21 00:12:20 INFO  time: compiled test in 0.6s
