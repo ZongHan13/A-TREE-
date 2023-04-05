@@ -11,5 +11,6 @@ libraryDependencies ++= Seq(
                             "org.apache.kafka" %% "kafka" % "3.1.0",
                             "org.apache.spark" %% "spark-sql-kafka-0-10" % "3.2.0",
                             "com.lihaoyi" %% "os-lib" % "0.9.0",
-                            "com.typesafe.akka" %% "akka-actor" % "2.7.0"
+                            "com.typesafe.akka" %% "akka-actor" % "2.7.0",
+                            "org.scalaj" %% "scalaj-http" % "2.4.2"
 )

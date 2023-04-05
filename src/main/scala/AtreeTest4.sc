@@ -150,6 +150,7 @@ class ATree() {
             val foruni = u.map(x =>x.toList).toList
             //println("c === =!!!!" + c)
             c.appendAll(foruni.flatten).toList
+            
         
     }
 
@@ -348,9 +349,9 @@ println(tree.hen(44202).childs(1).expression)
 
 println("------------")
 println(tree.hen.size)
-// for ((id, node) <- tree.hen) {
-//     println(id + ":" + node.expression)
-// }
+for ((id, node) <- tree.hen) {
+    println(id + ":" + node.expression)
+}
 println("Node A parents :")
 tree.hen(4225).parent.foreach(x => println(x.expression))
 println(" ----- Node A ------")
@@ -375,6 +376,15 @@ println(tree.hen(75011).childs.size)
 println(tree.hen(75011).childs(0).expression)
 println(tree.hen(75011).childs(1).expression)
 
+println("11111111111111111111111111111")
+println(tree.hen(48758).expression)
+println(tree.hen(48758).childs.size)
+println(tree.hen(48758).childs(0).expression)
+println(tree.hen(48758).childs(0).childExprs.size + "!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+println(tree.hen(48758).childs(0).childs.size)
+println(tree.hen(48758).childs(0).childs(0).expression)
+println(tree.hen(48758).childs(0).childs(1).expression)
+//println(tree.hen(48758).childs(1).expression)
 // val sorted_Map = tree.hen.toSeq.sortWith(_._1 < _._1)
 // sorted_Map.foreach(x => println(x._1 + ":" + x._2.expression))
 

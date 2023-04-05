@@ -3,7 +3,7 @@ import org.apache.spark.sql.functions._
 import org.apache.spark.sql.DataFrame
 import scala.reflect.io.File
 import myFile._
-
+import scalaj.http._
 
 object KafkaTest {
   val spark = SparkSession.builder().master("local[*]").appName("KafkaTest").getOrCreate()
@@ -13,7 +13,7 @@ object KafkaTest {
   //fw.writeFirst
   import spark.implicits._
   
-  val df = spark.readStream.format("kafka").option("kafka.bootstrap.servers","134.208.2.169:9092").option("subscribe", "Test").load()
+  val df = spark.readStream.format("kafka").option("kafka.bootstrap.servers","134.208.2.169:9092").option("subscribe", "SparkTest").load()
 
   val df1 =  df.selectExpr("CAST(key AS STRING)", "CAST(value AS STRING)")
   df1.printSchema()
@@ -32,6 +32,8 @@ object KafkaTest {
 
   val query = df1.writeStream.foreachBatch((data: DataFrame, id: Long) => if(!data.isEmpty) { data.foreach(x => x(1).toString match {
     case "Hello" => fw.writeHello
+    case "scala_event" => val testRequest = Http("https://maker.ifttt.com/trigger/scala_event/json/with/key/cyMr3y7V3Np-gzMAhWE8HM").asString.body
+    //it works 
     case s:String => fw.writeText(s)
     
   }   )
